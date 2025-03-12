@@ -1,0 +1,77 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+prefix geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
+
+CONSTRUCT {
+
+    ?venue a schema:MovieTheater ;
+           schema:name ?name ;
+           schema:description ?description ;
+           schema:additionalType ?additionalType ;
+           schema:location [ a schema:Role ;
+          schema:startDate ?beginDate ;
+          schema:endDate ?endDate ;
+          schema:location ?place ] .
+    
+    ?place a schema:Place ;
+           schema:address [ schema:addressLocality ?city ] ;
+           schema:geo [ a schema:GeoCoordinates ;
+                        schema:latitude ?latitude ;
+                        schema:longitude ?longitude ] .
+
+    ?venue schema:citation [ a schema:Dataset ;
+                             schema:name "Cinema Context" ;
+                             schema:url <https://www.cinemacontext.nl> ] .
+
+} WHERE
+{
+
+   ?venue a schema:MovieTheater ;
+          schema:name ?name ;
+          schema:location ?place ;
+          schema:temporalCoverage ?temporalCoverage . 
+
+  OPTIONAL { ?venue schema:description ?description . }
+          
+  OPTIONAL { ?temporalCoverage sem:hasEarliestBeginTimeStamp ?beginDate .}
+  OPTIONAL { ?temporalCoverage sem:hasLatestEndTimeStamp ?endDate .}
+
+   ?place a schema:Place ;
+            geo:hasGeometry/geo:asWKT ?wkt ;
+            schema:address [ schema:addressLocality ?city ] .
+
+
+    BIND ( bif:st_geomfromtext(?wkt) as ?geometry ) .
+    BIND ( bif:st_x( ?geometry ) as ?longitude ) .
+    BIND ( bif:st_y( ?geometry ) as ?latitude ) .
+
+} 
+
+# Frame
+# {
+#   "@context": {
+#     "@version": 1.1,
+#     "@vocab": "https://schema.org/",
+#     "startDate": {
+#       "@id": "https://schema.org/startDate",
+#       "@type": "http://www.w3.org/2001/XMLSchema#date"
+#     },
+#     "endDate": {
+#       "@id": "https://schema.org/endDate",
+#       "@type": "http://www.w3.org/2001/XMLSchema#date"
+#     },
+#     "latitude": {
+#       "@id": "https://schema.org/latitude",
+#       "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+#     },
+#     "longitude": {
+#       "@id": "https://schema.org/longitude",
+#       "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+#     }
+#   },
+#   "@type": "MovieTheater",
+#   "location": {}
+# }

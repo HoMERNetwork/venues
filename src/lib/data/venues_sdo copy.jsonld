@@ -1,0 +1,35 @@
+[
+    {
+        "@context": "https://schema.org/",
+        "@type": "MovieTheater",
+        "additionalType": "ArthouseCinema",
+        "name": "Kriterion",
+        "description": "Arthouse Cinema",
+        "location": {
+            "@type": "Role",
+            "startDate": "1998-09-02",
+            "endDate": "1998-09-02",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1012",
+                    "streetAddress": "Roetersstraat 170"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 53.5,
+                    "longitude": 4.5
+                }
+            }
+        },
+        "citation": {
+            "@type": "Dataset",
+            "name": "Cinema Context",
+            "url": "http://www.cinemacontext.nl/"
+        },
+        "sameAs": "https://www.kriterion.nl/"
+    }
+]

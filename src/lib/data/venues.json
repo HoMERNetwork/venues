@@ -1,0 +1,322 @@
+[
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Art_house_cinema",
+                "name": "Art house cinema"
+            }
+        ],
+        "name": "Kriterion",
+        "description": "Filmtheater Kriterion, officieel Vereniging Onderlinge Studentensteun Kriterion (V.O.S.S. Kriterion), is een door studenten geëxploiteerde bioscoop en studentenvereniging aan de Roetersstraat 170 in Amsterdam. Het is voortgekomen uit het studentenverzet tijdens de Tweede Wereldoorlog.",
+        "location": {
+            "@type": "Role",
+            "startDate": "1945-11-06",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1012",
+                    "streetAddress": "Roetersstraat 170"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 52.3625,
+                    "longitude": 4.910556
+                }
+            }
+        },
+        "citation": [
+            {
+                "@type": "Dataset",
+                "name": "Cinema Context",
+                "url": "http://www.cinemacontext.nl/"
+            }
+        ],
+        "sameAs": [
+            "http://www.cinemacontext.nl/id/B000016"
+        ]
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Concert_hall",
+                "name": "Concert hall"
+            }
+        ],
+        "name": "Melodium",
+        "description": "Historic concert venue established in 1923, known for classical music performances and contemporary experimental concerts.",
+        "location": {
+            "@type": "Role",
+            "startDate": "1923-03-15",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1017",
+                    "streetAddress": "Prinsengracht 245"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 40.7128,
+                    "longitude": -74.0060
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Theater",
+                "name": "Theater"
+            }
+        ],
+        "name": "Theater Nova",
+        "description": "Modern theater space showcasing experimental performances and avant-garde productions since 1998.",
+        "location": {
+            "@type": "Role",
+            "startDate": "1998-09-21",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1054",
+                    "streetAddress": "Overtoom 301"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 35.6762,
+                    "longitude": 139.6503
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Cultural_center",
+                "name": "Cultural center"
+            }
+        ],
+        "name": "De Kunsthaven",
+        "description": "Multifunctional cultural center in a converted warehouse, hosting exhibitions, performances, and workshops.",
+        "location": {
+            "@type": "Role",
+            "startDate": "2005-06-12",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1019",
+                    "streetAddress": "KNSM-laan 89"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": -33.8688,
+                    "longitude": 151.2093
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Jazz_club",
+                "name": "Jazz club"
+            }
+        ],
+        "name": "Blue Note Amsterdam",
+        "description": "Intimate jazz venue featuring local and international artists in a classic club atmosphere.",
+        "location": {
+            "@type": "Role",
+            "startDate": "1975-11-30",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1012",
+                    "streetAddress": "Warmoesstraat 129"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 51.5074,
+                    "longitude": -0.1278
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Art_gallery",
+                "name": "Art gallery"
+            }
+        ],
+        "name": "Galerie Modern",
+        "description": "Contemporary art gallery showcasing emerging Dutch artists and international exhibitions.",
+        "location": {
+            "@type": "Role",
+            "startDate": "2010-04-15",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1016",
+                    "streetAddress": "Keizersgracht 442"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 48.8566,
+                    "longitude": 2.3522
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Independent_cinema",
+                "name": "Independent cinema"
+            }
+        ],
+        "name": "FilmHuis West",
+        "description": "Small independent cinema specializing in documentary and world cinema screenings.",
+        "location": {
+            "@type": "Role",
+            "startDate": "1988-02-01",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1057",
+                    "streetAddress": "Jan van Galenstraat 24"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 55.6761,
+                    "longitude": 12.5683
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Performance_space",
+                "name": "Performance space"
+            }
+        ],
+        "name": "Podium Zuid",
+        "description": "Versatile performance space hosting dance, theater, and music events in Amsterdam Zuid.",
+        "location": {
+            "@type": "Role",
+            "startDate": "2015-09-01",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1071",
+                    "streetAddress": "Van Baerlestraat 123"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 41.9028,
+                    "longitude": 12.4964
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Comedy_club",
+                "name": "Comedy club"
+            }
+        ],
+        "name": "Lachpaleis",
+        "description": "Premier comedy venue featuring stand-up performances and improv shows.",
+        "location": {
+            "@type": "Role",
+            "startDate": "2008-12-05",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1015",
+                    "streetAddress": "Rozengracht 117"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 59.9139,
+                    "longitude": 10.7522
+                }
+            }
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Place",
+        "additionalType": [
+            {
+                "@id": "https://homernetwork.github.io/vocabulary/venues/Literary_cafe",
+                "name": "Literary cafe"
+            }
+        ],
+        "name": "Boekencafé Pagina",
+        "description": "Cultural hub combining a bookstore, cafe, and event space for literary readings and discussions.",
+        "location": {
+            "@type": "Role",
+            "startDate": "2012-07-20",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Amsterdam",
+                    "addressRegion": "NH",
+                    "postalCode": "1018",
+                    "streetAddress": "Plantage Middenlaan 45"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 52.5200,
+                    "longitude": 13.4050
+                }
+            }
+        }
+    }
+]
