@@ -6,7 +6,7 @@
 <div class="flex h-screen flex-col">
 	<nav class="navbar bg-base-100">
 		<div class="flex-1">
-			<a href="/" class="btn btn-ghost text-xl">HoMER Venues</a>
+			<a href="{base}/" class="btn btn-ghost text-xl">HoMER Venues</a>
 		</div>
 		<div class="flex-none">
 			<ul class="menu menu-horizontal px-1">
