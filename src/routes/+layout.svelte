@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { base } from '$app/paths';
 </script>
 
 <div class="flex h-screen flex-col">
@@ -9,10 +10,10 @@
 		</div>
 		<div class="flex-none">
 			<ul class="menu menu-horizontal px-1">
-				<li><a href="/">Map</a></li>
-				<li><a href="/datasets">Datasets</a></li>
-				<li><a href="/contribute">Contribute</a></li>
-				<li><a href="/about">About</a></li>
+				<li><a href="{base}/">Map</a></li>
+				<li><a href="{base}/datasets">Datasets</a></li>
+				<li><a href="{base}/contribute">Contribute</a></li>
+				<li><a href="{base}/about">About</a></li>
 			</ul>
 		</div>
 	</nav>
