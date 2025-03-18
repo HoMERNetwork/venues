@@ -37,8 +37,10 @@
 	},
 	"dependencies": {
 		"daisyui": "^5.0.0",
+		"geojson": "^0.5.0",
 		"maplibre-gl": "^5.1.1",
 		"maplibre-gl-temporal-control": "^1.2.0",
+		"svelte-multiselect": "^11.0.0-rc.1",
 		"svelte-range-slider-pips": "^3.2.2"
 	}
 }

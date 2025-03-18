@@ -1,39 +1,39 @@
 [
-    {
-        "@context": "https://schema.org/",
-        "@type": "Place",
-        "additionalType": [
-            {
-                "@id": "https://homernetwork.github.io/vocabulary/venues/Art_house_cinema",
-                "name": "Art house cinema"
-            }
-        ],
-        "name": "Kriterion",
-        "description": "Filmtheater Kriterion, officieel Vereniging Onderlinge Studentensteun Kriterion (V.O.S.S. Kriterion), is een door studenten geëxploiteerde bioscoop en studentenvereniging aan de Roetersstraat 170 in Amsterdam. Het is voortgekomen uit het studentenverzet tijdens de Tweede Wereldoorlog.",
-        "location": {
-            "@type": "Role",
-            "startDate": "1945-11-06",
-            "location": {
-                "@type": "Place",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Amsterdam",
-                    "addressRegion": "NH",
-                    "postalCode": "1012",
-                    "streetAddress": "Roetersstraat 170"
-                },
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": 52.3625,
-                    "longitude": 4.910556
-                }
-            }
-        },
-        "citation": {
-            "@type": "Dataset",
-            "name": "Cinema Context",
-            "url": "http://www.cinemacontext.nl/"
-        },
-        "sameAs": "http://www.cinemacontext.nl/id/B000016"
-    }
+	{
+		"@context": "https://schema.org/",
+		"@type": "Place",
+		"additionalType": [
+			{
+				"@id": "https://homernetwork.github.io/vocabulary/venues/Art_house_cinema",
+				"name": "Art house cinema"
+			}
+		],
+		"name": "Kriterion",
+		"description": "Filmtheater Kriterion, officieel Vereniging Onderlinge Studentensteun Kriterion (V.O.S.S. Kriterion), is een door studenten geëxploiteerde bioscoop en studentenvereniging aan de Roetersstraat 170 in Amsterdam. Het is voortgekomen uit het studentenverzet tijdens de Tweede Wereldoorlog.",
+		"location": {
+			"@type": "Role",
+			"startDate": "1945-11-06",
+			"location": {
+				"@type": "Place",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Amsterdam",
+					"addressRegion": "NH",
+					"postalCode": "1012",
+					"streetAddress": "Roetersstraat 170"
+				},
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": 52.3625,
+					"longitude": 4.910556
+				}
+			}
+		},
+		"citation": {
+			"@type": "Dataset",
+			"name": "Cinema Context",
+			"url": "http://www.cinemacontext.nl/"
+		},
+		"sameAs": "http://www.cinemacontext.nl/id/B000016"
+	}
 ]
