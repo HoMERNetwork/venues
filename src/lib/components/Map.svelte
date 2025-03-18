@@ -19,6 +19,7 @@
 	let minimumFilterValue = 1895;
 	let maximumFilterValue = new Date().getFullYear();
 
+	let selectedVenueTypes: { label: string; value: string }[] = [];
 	export let data: FeatureCollection | null;
 
 	onMount(() => {
@@ -138,13 +139,28 @@
 		}
 	});
 
-	const updateFilter = (min: number, max: number) => {
+	const updateFilter = (
+		min: number,
+		max: number,
+		selectedVenueTypes?: { label: string; value: string }[]
+	) => {
 		if (!$map?.style) return;
-		$map?.setFilter('venues', [
+
+		let filter = [
 			'any',
 			['all', ['>=', ['get', 'startYear'], min], ['<=', ['get', 'startYear'], max]],
 			['all', ['>=', ['get', 'endYear'], min], ['<=', ['get', 'endYear'], max]]
-		]);
+		];
+
+		if (selectedVenueTypes?.length) {
+			const typeFilter = [
+				'any',
+				...selectedVenueTypes.map((type) => ['in', type.value, ['get', 'type']])
+			];
+			filter = ['all', filter, typeFilter];
+		}
+
+		$map?.setFilter('venues', filter);
 	};
 
 	const updateVisibleFeatures = () => {
@@ -155,7 +171,7 @@
 	};
 
 	$: {
-		updateFilter(minimumFilterValue, maximumFilterValue);
+		updateFilter(minimumFilterValue, maximumFilterValue, selectedVenueTypes);
 		updateVisibleFeatures();
 	}
 
@@ -208,7 +224,7 @@
 
 	<!-- TypeFilter-->
 	<div class="absolute top-0 right-0 z-10 mr-4">
-		<TypeFilter />
+		<TypeFilter bind:selectedVenueTypes />
 	</div>
 
 	<!-- Map -->

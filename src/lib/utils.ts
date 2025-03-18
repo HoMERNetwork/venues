@@ -18,6 +18,7 @@ const convertToGeoJson = (data: Venue[]) => {
 		type: 'FeatureCollection',
 		features: data.map((venue) => {
 			const i = data.indexOf(venue);
+			const type = venue.additionalType.map((type) => type['@id']);
 			const startYear = venue.location.startDate
 				? new Date(venue.location.startDate).getFullYear()
 				: null;
@@ -33,6 +34,7 @@ const convertToGeoJson = (data: Venue[]) => {
 				},
 				properties: {
 					name: venue.name,
+					type: type,
 					startYear: startYear,
 					endYear: endYear,
 					venue: venue // Full venue data (as string)

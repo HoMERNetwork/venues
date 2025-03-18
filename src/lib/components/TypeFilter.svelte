@@ -4,14 +4,16 @@
 	import { type Option } from 'svelte-multiselect';
 	import { type Venue } from '$lib/types';
 
-	let selected: { label: string; value: string }[] = $state([]);
+	let { selectedVenueTypes = $bindable(), ...props } = $props();
 
 	$effect(() => {
 		$filteredVisibleFeatures = $visibleFeatures.filter((feature) => {
 			const venue: Venue = JSON.parse(feature.properties.venue);
 			return (
-				selected.length === 0 ||
-				selected.some((option) => venue.additionalType.some((type) => type['@id'] === option.value))
+				selectedVenueTypes.length === 0 ||
+				selectedVenueTypes.some((option) =>
+					venue.additionalType.some((type) => type['@id'] === option.value)
+				)
 			);
 		});
 	});
@@ -22,6 +24,6 @@
 		<h2 class="card-title text-xs sm:text-sm md:text-lg">Filter</h2>
 		<p class="text-xs sm:text-sm md:text-base">Filter by venue type</p>
 
-		<MultiSelect bind:selected options={$venueTypes as Option[]} />
+		<MultiSelect bind:selected={selectedVenueTypes} options={$venueTypes as Option[]} />
 	</div>
 </div>
