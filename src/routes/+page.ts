@@ -1,6 +1,7 @@
 import { countFeatures, venueTypes } from '$lib/stores';
 import { type Venue } from '$lib/types';
 import { base } from '$app/paths';
+import { building } from '$app/environment';
 import { type Option } from 'svelte-multiselect';
 
 const loadData = async (fetch) => {
@@ -80,6 +81,8 @@ const getVenueTypes = (data: Venue[]) => {
 };
 
 export const load = ({ fetch }) => {
-	const data = loadData(fetch);
-	return data;
+	if (!building) {
+		const data = loadData(fetch);
+		return data;
+	}
 };

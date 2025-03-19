@@ -1,6 +1,6 @@
 {
 	"@context": "https://schema.org",
-	"@id": "https://homernetwork.github.io/venues/datasets/cinema-context",
+	"@id": "https://homernetwork.github.io/venues/datasets/cinema-context.json",
 	"@type": "Dataset",
 	"name": "Cinema Context",
 	"description": "Cinema Context is a database of Dutch cinema and film culture.",
@@ -49,7 +49,9 @@
 					"url": "http://www.cinemacontext.nl/"
 				}
 			],
-			"sameAs": ["http://www.cinemacontext.nl/id/B000016"]
+			"sameAs": [
+				"http://www.cinemacontext.nl/id/B000016"
+			]
 		},
 		{
 			"@context": "https://schema.org/",
