@@ -49,9 +49,7 @@
 					"url": "http://www.cinemacontext.nl/"
 				}
 			],
-			"sameAs": [
-				"http://www.cinemacontext.nl/id/B000016"
-			]
+			"sameAs": ["http://www.cinemacontext.nl/id/B000016"]
 		},
 		{
 			"@context": "https://schema.org/",

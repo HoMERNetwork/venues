@@ -36,6 +36,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@lucide/svelte": "^0.483.0",
 		"daisyui": "^5.0.0",
 		"geojson": "^0.5.0",
 		"maplibre-gl": "^5.1.1",
