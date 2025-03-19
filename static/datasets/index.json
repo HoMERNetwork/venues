@@ -1,0 +1,19 @@
+{
+	"@context": "https://schema.org",
+	"@type": "DataCatalog",
+	"dataset": [
+		{
+			"@id": "datasets/cinema-context.json",
+			"@type": "Dataset",
+			"name": "Cinema Context",
+			"description": "Cinema Context is a database of Dutch cinema and film culture.",
+			"citation": "Cinema Context. (n.d.). Cinema Context. https://www.cinemacontext.nl/",
+			"url": "https://www.cinemacontext.nl/",
+			"distribution": {
+				"@type": "DataDownload",
+				"encodingFormat": "application/ld+json",
+				"contentUrl": "cinema-context.json"
+			}
+		}
+	]
+}

@@ -1,20 +1,27 @@
-import { countFeatures, venueTypes } from './stores';
+import { countFeatures, venueTypes } from '$lib/stores';
 import { type Venue } from '$lib/types';
+import { base } from '$app/paths';
 import { type Option } from 'svelte-multiselect';
 
-import { base } from '$app/paths';
-
-export const loadData = async () => {
+const loadData = async (fetch) => {
 	const res = await fetch(base + 'datasets/index.json');
 	const index = await res.json();
 
 	const venuesData = [];
 
-	index.dataset.forEach(async (dataset) => {
-		console.log(dataset['@id']);
-		const data = await fetch(dataset['@id']).then((res) => res.json());
-		venuesData.push(...data);
-	});
+	// Check if index.dataset exists before mapping over it
+	if (index.dataset && Array.isArray(index.dataset)) {
+		// Use Promise.all to wait for all fetch operations to complete
+		await Promise.all(
+			index.dataset.map(async (dataset) => {
+				const res = await fetch(dataset['@id']);
+				const data = await res.json();
+				venuesData.push(...data.hasPart);
+			})
+		);
+	} else {
+		console.error('No dataset array found in the index:', index);
+	}
 
 	const geoJsonFeatures = convertToGeoJson(venuesData as Venue[]);
 	countFeatures.set(geoJsonFeatures.features.length);
@@ -70,4 +77,9 @@ const getVenueTypes = (data: Venue[]) => {
 	});
 
 	return options.sort();
+};
+
+export const load = ({ fetch }) => {
+	const data = loadData(fetch);
+	return data;
 };

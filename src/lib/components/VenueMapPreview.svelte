@@ -70,8 +70,7 @@
 			container: mapContainer,
 			style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
 			center: [initialState.lng, initialState.lat],
-			zoom: initialState.zoom,
-			attributionControl: false
+			zoom: initialState.zoom
 		});
 
 		map.on('load', () => {

@@ -2,12 +2,30 @@
 	import '../app.css';
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
+
+	import { selectedFeature } from '$lib/stores';
+
+	let unique = {};
+
+	const resetApp = () => {
+		$selectedFeature = null;
+
+		unique = {};
+	};
 </script>
 
 <div class="flex h-screen flex-col">
 	<nav class="navbar bg-base-100">
 		<div class="flex-1">
-			<a href="{base}/" class="btn btn-ghost text-sm sm:text-xl">HoMER Venue Research Index</a>
+			<a
+				href="{base}/"
+				role="button"
+				onclick={() => {
+					resetApp();
+					goto(`${base}/`);
+				}}
+				class="btn btn-ghost text-sm sm:text-xl">HoMER Venue Research Index</a
+			>
 		</div>
 		<div class="flex-none">
 			<ul class="menu menu-horizontal px-1">
@@ -15,8 +33,15 @@
 					<a
 						href="{base}/"
 						role="button"
-						onclick={() => goto(`${base}/`)}
-						onkeydown={(e) => e.key === 'Enter' && goto(`${base}/`)}>Map</a
+						onclick={() => {
+							goto(`${base}/`);
+							resetApp();
+						}}
+						onkeydown={(e) => {
+							if (e.key === 'Enter') {
+								goto(`${base}/`).then(() => resetApp());
+							}
+						}}>Home</a
 					>
 				</li>
 				<li>
@@ -49,7 +74,9 @@
 
 	<div class="flex flex-1 overflow-hidden">
 		<div class="relative flex-1">
-			<slot />
+			{#key unique}
+				<slot />
+			{/key}
 		</div>
 	</div>
 </div>
