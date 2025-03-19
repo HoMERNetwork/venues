@@ -5,7 +5,7 @@ import { building } from '$app/environment';
 import { type Option } from 'svelte-multiselect';
 
 const loadData = async (fetch) => {
-	const res = await fetch(base + 'datasets/index.json');
+	const res = await fetch(base + '/datasets/index.json');
 	const index = await res.json();
 
 	const venuesData = [];

@@ -3,7 +3,7 @@
 	"@type": "DataCatalog",
 	"dataset": [
 		{
-			"@id": "datasets/cinema-context.json",
+			"@id": "https://homernetwork.github.io/venues/datasets/cinema-context.json",
 			"@type": "Dataset",
 			"name": "Cinema Context",
 			"description": "Cinema Context is a database of Dutch cinema and film culture.",
