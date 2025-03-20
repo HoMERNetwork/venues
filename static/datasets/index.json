@@ -13,7 +13,8 @@
 				"@type": "DataDownload",
 				"encodingFormat": "application/ld+json",
 				"contentUrl": "cinema-context.json"
-			}
+			},
+			"dateModified": "2025-03-20"
 		}
 	]
 }

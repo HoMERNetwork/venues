@@ -19,7 +19,7 @@
 	});
 </script>
 
-<div class="card bg-base-100 z-100 m-1 w-full shadow sm:m-2 md:max-w-sm">
+<div class="card bg-base-100 z-100 m-1 w-full max-w-sm shadow sm:m-2">
 	<div class="card-body p-2 sm:p-4 md:p-6">
 		<h2 class="card-title text-xs sm:text-sm md:text-lg">Filter</h2>
 		<p class="text-xs sm:text-sm md:text-base">Filter by venue type</p>

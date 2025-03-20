@@ -16,6 +16,7 @@ type DataCatalog = {
 			encodingFormat: string;
 			contentUrl: string;
 		};
+		dateModified: string;
 	}>;
 };
 

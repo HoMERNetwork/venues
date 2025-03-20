@@ -223,7 +223,7 @@
 	</div>
 
 	<!-- TypeFilter-->
-	<div class="absolute top-0 right-0 z-10 mr-4">
+	<div class="absolute top-0 right-0 z-10 mr-4 w-48 md:w-64 lg:w-80 xl:w-96">
 		<TypeFilter bind:selectedVenueTypes />
 	</div>
 

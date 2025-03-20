@@ -35,7 +35,7 @@
 								<p class="text-base-content/80 text-sm">{dataset.description}</p>
 
 								{#if dataset.citation}
-									<div class="text-base-content/70 mt-2 text-xs">
+									<div class=" mt-3 w-full self-start text-xs">
 										<p class="font-semibold">Citation:</p>
 										<div class="flex items-center gap-1">
 											<p class="flex-grow italic">{dataset.citation}</p>
@@ -57,27 +57,39 @@
 									</div>
 								{/if}
 
-								<div class="card-actions mt-4 justify-end">
-									{#if dataset.url}
+								<div class="card-actions mt-4 flex items-end justify-between">
+									<div class="text-base-content/60 text-xs">
+										{#if dataset.dateModified}
+											Last modified: {new Date(dataset.dateModified).toLocaleDateString('en-US', {
+												year: 'numeric',
+												month: 'short',
+												day: 'numeric'
+											})}
+										{/if}
+									</div>
+
+									<div class="flex gap-2">
 										<a
-											href={dataset.url}
+											href={dataset['@id']}
 											target="_blank"
 											rel="noopener noreferrer"
 											class="btn btn-sm btn-outline"
 										>
-											Website
-											<ExternalLink class="h-4 w-4" />
+											JSON-LD Data
+											<Download class="h-4 w-4" />
 										</a>
-									{/if}
-									<a
-										href={dataset['@id']}
-										target="_blank"
-										rel="noopener noreferrer"
-										class="btn btn-sm btn-primary"
-									>
-										JSON Data
-										<Download class="h-4 w-4" />
-									</a>
+										{#if dataset.url}
+											<a
+												href={dataset.url}
+												target="_blank"
+												rel="noopener noreferrer"
+												class="btn btn-sm btn-primary"
+											>
+												Website
+												<ExternalLink class="h-4 w-4" />
+											</a>
+										{/if}
+									</div>
 								</div>
 							</div>
 						</div>
