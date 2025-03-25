@@ -157,9 +157,11 @@
 				'any',
 				...selectedVenueTypes.map((type) => ['in', type.value, ['get', 'type']])
 			];
+			// @ts-ignore
 			filter = ['all', filter, typeFilter];
 		}
 
+		// @ts-ignore
 		$map?.setFilter('venues', filter);
 	};
 
@@ -223,7 +225,7 @@
 	</div>
 
 	<!-- TypeFilter-->
-	<div class="absolute top-0 right-0 z-10 mr-4 w-48 md:w-64 lg:w-80 xl:w-96">
+	<div class="absolute top-0 right-0 z-10 mr-2 w-48 sm:mr-4 md:w-64 lg:w-80 xl:w-96">
 		<TypeFilter bind:selectedVenueTypes />
 	</div>
 

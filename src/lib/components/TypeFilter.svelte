@@ -11,7 +11,7 @@
 			const venue: Venue = JSON.parse(feature.properties.venue);
 			return (
 				selectedVenueTypes.length === 0 ||
-				selectedVenueTypes.some((option) =>
+				selectedVenueTypes.some((option: { label: string; value: string }) =>
 					venue.additionalType.some((type) => type['@id'] === option.value)
 				)
 			);

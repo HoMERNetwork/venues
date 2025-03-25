@@ -2,16 +2,29 @@
 	import { selectedFeature, filteredVisibleFeatures, countFeatures } from '$lib/stores';
 	import Venue from '$lib/components/Venue.svelte';
 	import VenuePreviewList from '$lib/components/VenuePreviewList.svelte';
+
+	import { X } from '@lucide/svelte';
 </script>
 
 {#if $selectedFeature}
 	<div class="h-full overflow-auto">
 		<div class="card-body flex h-full flex-col p-4 pb-0">
-			<div class="flex-none px-4">
-				<h2 class="card-title text-2xl font-semibold">Details</h2>
-				<p>Showing venue details</p>
+			<div class="flex flex-none items-center justify-between px-4">
+				<div>
+					<h2 class="card-title text-2xl font-semibold">Details</h2>
+					<p>Showing venue details</p>
+				</div>
+				<button
+					class="btn btn-ghost"
+					on:click={($selectedFeature = null)}
+					aria-label="Close venue details"
+				>
+					<X />
+				</button>
 			</div>
-			<Venue venue={$selectedFeature} />
+			{#if $selectedFeature}
+				<Venue venue={$selectedFeature} />
+			{/if}
 		</div>
 	</div>
 {:else}
