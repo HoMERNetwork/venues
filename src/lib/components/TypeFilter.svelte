@@ -4,7 +4,7 @@
 	import { type Option } from 'svelte-multiselect';
 	import { type Venue } from '$lib/types';
 
-	let { selectedVenueTypes = $bindable(), ...props } = $props();
+	let { selectedVenueTypes = $bindable() } = $props();
 
 	$effect(() => {
 		$filteredVisibleFeatures = $visibleFeatures.filter((feature) => {

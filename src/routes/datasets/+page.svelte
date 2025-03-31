@@ -1,6 +1,15 @@
 <script lang="ts">
 	export let data;
-	import { ExternalLink, Download, Info, XCircle, Copy, Check } from '@lucide/svelte';
+	import {
+		ExternalLink,
+		Download,
+		Info,
+		XCircle,
+		Copy,
+		Check,
+		FileSpreadsheet,
+		FileJson
+	} from '@lucide/svelte';
 
 	let copiedStates: Record<number, boolean> = {};
 
@@ -41,17 +50,17 @@
 											<p class="flex-grow italic">{dataset.citation}</p>
 											<button
 												class="btn btn-xs btn-ghost flex-shrink-0 p-1"
-												on:click={() => copyToClipboard(dataset.citation, index)}
+												onclick={() => copyToClipboard(dataset.citation, index)}
 												aria-label="Copy citation to clipboard"
 											>
 												{#if copiedStates[index]}
-													<Check class="text-success h-3.5 w-3.5" />
+													<Check class="text-info h-3.5 w-3.5" />
 												{:else}
 													<Copy class="h-3.5 w-3.5" />
 												{/if}
 											</button>
 											{#if copiedStates[index]}
-												<span class="text-success text-xs">Copied!</span>
+												<span class="text-info text-xs">Copied!</span>
 											{/if}
 										</div>
 									</div>
@@ -60,24 +69,38 @@
 								<div class="card-actions mt-4 flex items-end justify-between">
 									<div class="text-base-content/60 text-xs">
 										{#if dataset.dateModified}
-											Last modified: {new Date(dataset.dateModified).toLocaleDateString('en-US', {
-												year: 'numeric',
-												month: 'short',
-												day: 'numeric'
-											})}
+											Last modified: {new Date(dataset.dateModified).toLocaleDateString()}
 										{/if}
 									</div>
 
 									<div class="flex gap-2">
-										<a
-											href={dataset['@id']}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="btn btn-sm btn-outline"
-										>
-											JSON-LD Data
-											<Download class="h-4 w-4" />
-										</a>
+										<div class="dropdown dropdown-top dropdown-end">
+											<button tabindex="0" class="btn btn-sm btn-outline">
+												Download
+												<Download class="h-4 w-4" />
+											</button>
+											<ul
+												class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+											>
+												{#each dataset.distribution as distribution, index (index)}
+													<li>
+														<a
+															href={distribution.contentUrl}
+															target="_blank"
+															rel="noopener noreferrer"
+															class="text-sm"
+														>
+															{#if distribution.encodingFormat === 'application/ld+json'}
+																<FileJson size={20} />
+															{:else if distribution.encodingFormat === 'text/tab-separated-values'}
+																<FileSpreadsheet size={20} />
+															{/if}
+															{distribution.encodingFormat}
+														</a>
+													</li>
+												{/each}
+											</ul>
+										</div>
 										{#if dataset.url}
 											<a
 												href={dataset.url}

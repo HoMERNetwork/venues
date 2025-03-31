@@ -7,7 +7,7 @@
 	import TimeSlider from './TimeSlider.svelte';
 	import TypeFilter from './TypeFilter.svelte';
 
-	import { visibleFeatures, selectedFeature, hoveredFeatureState } from '$lib/stores';
+	import { visibleFeatures, selectedFeature, hoveredFeatureState, stringFilter } from '$lib/stores';
 
 	import { map } from '$lib/stores';
 	import type { FeatureCollection } from 'geojson';
@@ -142,7 +142,8 @@
 	const updateFilter = (
 		min: number,
 		max: number,
-		selectedVenueTypes?: { label: string; value: string }[]
+		selectedVenueTypes?: { label: string; value: string }[],
+		stringFilter?: string
 	) => {
 		if (!$map?.style) return;
 
@@ -157,11 +158,16 @@
 				'any',
 				...selectedVenueTypes.map((type) => ['in', type.value, ['get', 'type']])
 			];
-			// @ts-ignore
+			// @ts-expect-error: this works
 			filter = ['all', filter, typeFilter];
 		}
 
-		// @ts-ignore
+		if (stringFilter) {
+			const stringFilterCondition = ['in', stringFilter.toLowerCase(), ['get', 'nameLower']];
+			filter = ['all', filter, stringFilterCondition];
+		}
+
+		// @ts-expect-error: this works
 		$map?.setFilter('venues', filter);
 	};
 
@@ -173,7 +179,7 @@
 	};
 
 	$: {
-		updateFilter(minimumFilterValue, maximumFilterValue, selectedVenueTypes);
+		updateFilter(minimumFilterValue, maximumFilterValue, selectedVenueTypes, $stringFilter);
 		updateVisibleFeatures();
 	}
 

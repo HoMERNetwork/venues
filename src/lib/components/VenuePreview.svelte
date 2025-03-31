@@ -103,6 +103,18 @@
 >
 	<div class="card-body p-4">
 		<h3 class="card-title text-lg">{venue.name}</h3>
+
+		{#if venue.location.startDate}
+			<div class="-mt-2 flex items-center gap-1 text-xs opacity-80">
+				<span>
+					{new Date(venue.location.startDate).toLocaleDateString()}
+					{#if venue.location.endDate}
+						– {new Date(venue.location.endDate).toLocaleDateString()}
+					{/if}
+				</span>
+			</div>
+		{/if}
+
 		<div class="card-actions">
 			{#each venue.additionalType as concept (concept['@id'])}
 				<button class="badge badge-primary badge-xs">{concept.name}</button>
@@ -110,7 +122,9 @@
 		</div>
 
 		<p class="text-sm">
-			{venue.description.length > 100 ? venue.description.slice(0, 100) + '...' : venue.description}
+			{(venue.description?.length ?? 0) > 100
+				? venue.description?.slice(0, 100) + '...'
+				: venue.description}
 		</p>
 	</div>
 </a>

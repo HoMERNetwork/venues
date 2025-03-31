@@ -1,21 +1,25 @@
 import { countFeatures, venueTypes } from '$lib/stores';
-import { type Venue } from '$lib/types';
+import type { Venue, Dataset } from '$lib/types';
 import { base } from '$app/paths';
 import { building } from '$app/environment';
-import { type Option } from 'svelte-multiselect';
+import type { ObjectOption } from 'svelte-multiselect';
 
 const loadData = async (fetch) => {
-	const res = await fetch(base + '/datasets/index.json');
+	const res = await fetch(base + '/datasets/index.jsonld');
 	const index = await res.json();
 
-	const venuesData = [];
+	const venuesData: Venue[] = [];
 
 	// Check if index.dataset exists before mapping over it
 	if (index.dataset && Array.isArray(index.dataset)) {
 		// Use Promise.all to wait for all fetch operations to complete
 		await Promise.all(
-			index.dataset.map(async (dataset) => {
-				const res = await fetch(dataset['@id']);
+			index.dataset.map(async (dataset: Dataset) => {
+				const contentUrl = dataset.distribution.find(
+					(distribution) => distribution.encodingFormat === 'application/ld+json'
+				)?.contentUrl;
+
+				const res = await fetch('datasets/' + contentUrl);
 				const data = await res.json();
 				venuesData.push(...data.hasPart);
 			})
@@ -24,10 +28,10 @@ const loadData = async (fetch) => {
 		console.error('No dataset array found in the index:', index);
 	}
 
-	const geoJsonFeatures = convertToGeoJson(venuesData as Venue[]);
+	const geoJsonFeatures = convertToGeoJson(venuesData);
 	countFeatures.set(geoJsonFeatures.features.length);
 
-	const venueTypeOptions = getVenueTypes(venuesData as Venue[]);
+	const venueTypeOptions = getVenueTypes(venuesData);
 	venueTypes.set(venueTypeOptions as { label: string; value: string }[]);
 
 	return geoJsonFeatures;
@@ -54,6 +58,7 @@ const convertToGeoJson = (data: Venue[]) => {
 				},
 				properties: {
 					name: venue.name,
+					nameLower: venue.name.toLowerCase(),
 					type: type,
 					startYear: startYear,
 					endYear: endYear,
@@ -67,17 +72,19 @@ const convertToGeoJson = (data: Venue[]) => {
 };
 
 const getVenueTypes = (data: Venue[]) => {
-	const venueTypes = data.map((venue) => venue.additionalType);
-	const uniqueVenueTypes = [...new Set(venueTypes.flat())];
+	const allVenueTypes = data.flatMap((venue) => venue.additionalType);
 
-	const options: Option[] = uniqueVenueTypes.map((venueType) => {
-		return {
-			label: venueType.name,
-			value: venueType['@id']
-		};
+	const uniqueTypesMap = new Map();
+	allVenueTypes.forEach((venueType) => {
+		uniqueTypesMap.set(venueType['@id'], venueType);
 	});
 
-	return options.sort();
+	const options: ObjectOption[] = Array.from(uniqueTypesMap.values()).map((venueType) => ({
+		label: venueType.name,
+		value: venueType['@id']
+	}));
+
+	return options.sort((a, b) => String(a.label).localeCompare(String(b.label)));
 };
 
 export const load = ({ fetch }) => {

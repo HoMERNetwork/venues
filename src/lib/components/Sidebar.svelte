@@ -1,9 +1,14 @@
 <script lang="ts">
-	import { selectedFeature, filteredVisibleFeatures, countFeatures } from '$lib/stores';
+	import {
+		selectedFeature,
+		filteredVisibleFeatures,
+		countFeatures,
+		stringFilter
+	} from '$lib/stores';
 	import Venue from '$lib/components/Venue.svelte';
 	import VenuePreviewList from '$lib/components/VenuePreviewList.svelte';
 
-	import { X } from '@lucide/svelte';
+	import { X, Search } from '@lucide/svelte';
 </script>
 
 {#if $selectedFeature}
@@ -16,12 +21,13 @@
 				</div>
 				<button
 					class="btn btn-ghost"
-					on:click={($selectedFeature = null)}
+					onclick={($selectedFeature = null)}
 					aria-label="Close venue details"
 				>
 					<X />
 				</button>
 			</div>
+			<div class="divider px-4"></div>
 			{#if $selectedFeature}
 				<Venue venue={$selectedFeature} />
 			{/if}
@@ -33,11 +39,34 @@
 			<div class="flex-none px-4">
 				<h2 class="card-title text-2xl font-semibold">Venues</h2>
 				<p>
-					Showing {Object.keys($filteredVisibleFeatures).length} out of {$countFeatures}
+					Showing {new Intl.NumberFormat().format(Object.keys($filteredVisibleFeatures).length)} out
+					of {new Intl.NumberFormat().format($countFeatures)}
 					venues
 				</p>
 			</div>
-			<div class="mt-4 flex-grow overflow-y-auto">
+
+			<!-- Search bar -->
+			<div class="px-4 pt-2">
+				<div class="relative">
+					<div class="input w-full">
+						<Search size={16} class="text-gray-400" />
+
+						<input type="text" bind:value={$stringFilter} placeholder="Search venues..." />
+						{#if $stringFilter}
+							<button
+								class="absolute inset-y-0 right-0 flex items-center pr-3"
+								onclick={() => ($stringFilter = '')}
+								aria-label="Clear search"
+							>
+								<X size={16} class="text-gray-400" />
+							</button>
+						{/if}
+					</div>
+				</div>
+			</div>
+
+			<div class="divider mb-0 px-4"></div>
+			<div class="flex-grow overflow-y-auto">
 				<VenuePreviewList />
 			</div>
 		</div>

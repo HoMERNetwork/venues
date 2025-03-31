@@ -12,3 +12,5 @@ export const filteredVisibleFeatures = writable<maplibregl.MapGeoJSONFeature[]>(
 export const map = writable<maplibregl.Map | null>(null);
 
 export const venueTypes = writable<{ label: string; value: string }[]>([]);
+
+export const stringFilter = writable<string>('');

@@ -1,24 +1,7 @@
 import { base } from '$app/paths';
 import { building } from '$app/environment';
 
-type DataCatalog = {
-	'@context': string;
-	'@type': string;
-	dataset: Array<{
-		'@id': string;
-		'@type': string;
-		name: string;
-		description: string;
-		citation: string;
-		url: string;
-		distribution: {
-			'@type': string;
-			encodingFormat: string;
-			contentUrl: string;
-		};
-		dateModified: string;
-	}>;
-};
+import type { DataCatalog } from '$lib/types';
 
 export async function load({ fetch }) {
 	if (building) {
@@ -29,7 +12,7 @@ export async function load({ fetch }) {
 	}
 
 	try {
-		const res = await fetch(`${base}/datasets/index.json`);
+		const res = await fetch(`${base}/datasets/index.jsonld`);
 
 		if (!res.ok) {
 			throw new Error(`Failed to fetch dataset index: ${res.status} ${res.statusText}`);

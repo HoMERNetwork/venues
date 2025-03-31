@@ -1,5 +1,5 @@
 import { countFeatures, venueTypes } from './stores';
-import { type Venue } from '$lib/types';
+import type { Dataset, Venue } from '$lib/types';
 import { type Option } from 'svelte-multiselect';
 
 import { base } from '$app/paths';
@@ -8,18 +8,18 @@ export const loadData = async () => {
 	const res = await fetch(base + 'datasets/index.json');
 	const index = await res.json();
 
-	const venuesData = [];
+	const venuesData: Venue[] = [];
 
-	index.dataset.forEach(async (dataset) => {
+	index.dataset.forEach(async (dataset: Dataset) => {
 		console.log(dataset['@id']);
 		const data = await fetch(dataset['@id']).then((res) => res.json());
 		venuesData.push(...data);
 	});
 
-	const geoJsonFeatures = convertToGeoJson(venuesData as Venue[]);
+	const geoJsonFeatures = convertToGeoJson(venuesData);
 	countFeatures.set(geoJsonFeatures.features.length);
 
-	const venueTypeOptions = getVenueTypes(venuesData as Venue[]);
+	const venueTypeOptions = getVenueTypes(venuesData);
 	venueTypes.set(venueTypeOptions as { label: string; value: string }[]);
 
 	return geoJsonFeatures;

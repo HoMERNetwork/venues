@@ -48,22 +48,23 @@ You can preview the production build with `npm run preview`.
 
 ## TSV Template Fields
 
-| Field               | Description                         | Example                                |
-| ------------------- | ----------------------------------- | -------------------------------------- |
-| venue_name          | Name of the venue                   | Kriterion                              |
-| venue_type          | Type of venue                       | Art house cinema                       |
-| venue_description   | Detailed description                | Filmtheater Kriterion, officieel...    |
-| location_start_date | Date when venue opened (YYYY-MM-DD) | 1945-11-06                             |
-| location_end_date   | Date when venue closed (YYYY-MM-DD) | (Empty when still in operation)        |
-| address_locality    | City                                | Amsterdam                              |
-| address_region      | Province/state code                 | NH                                     |
-| postal_code         | Postal code                         | 1012                                   |
-| street_address      | Street address                      | Roetersstraat 170                      |
-| latitude            | Geographic latitude                 | 52.3625                                |
-| longitude           | Geographic longitude                | 4.910556                               |
-| citation_name       | Source name                         | Cinema Context                         |
-| citation_url        | Source URL                          | http://www.cinemacontext.nl/           |
-| same_as_url         | External identifier URL             | http://www.cinemacontext.nl/id/B000016 |
+| Field              | Description                         | Example                                | Required |
+| ------------------ | ----------------------------------- | -------------------------------------- | -------- |
+| id                 | Unique identifier for the venue     | http://www.cinemacontext.nl/id/B000016 | Optional |
+| name               | Name of the venue                   | Kriterion                              | Required |
+| description        | Detailed description                | Filmtheater Kriterion, officieel...    | Optional |
+| additionalTypeId   | ID for venue type                   | cinema                                 | Optional |
+| additionalTypeName | Type of venue                       | Art house cinema                       | Optional |
+| startDate          | Date when venue opened (YYYY-MM-DD) | 1945-11-06                             | Required |
+| endDate            | Date when venue closed (YYYY-MM-DD) | (Empty when still in operation)        | Optional |
+| addressLocality    | City                                | Amsterdam                              | Optional |
+| addressRegion      | Province/state code                 | NH                                     | Optional |
+| postalCode         | Postal code                         | 1012                                   | Optional |
+| streetAddress      | Street address                      | Roetersstraat 170                      | Optional |
+| latitude           | Geographic latitude                 | 52.3625                                | Required |
+| longitude          | Geographic longitude                | 4.910556                               | Required |
+| citation           | Bibliographic reference             | Cinema Context                         | Optional |
+| sameAs             | External identifier URL             | http://www.cinemacontext.nl/id/B000016 | Optional |
 
 ## Converting TSV to JSON-LD
 

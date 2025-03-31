@@ -5,10 +5,10 @@ export type AdditionalType = {
 
 export type Address = {
 	'@type': 'PostalAddress';
-	addressLocality: string;
-	addressRegion: string;
-	postalCode: string;
-	streetAddress: string;
+	addressLocality?: string;
+	addressRegion?: string;
+	postalCode?: string;
+	streetAddress?: string;
 };
 
 export type GeoCoordinates = {
@@ -19,7 +19,7 @@ export type GeoCoordinates = {
 
 export type Place = {
 	'@type': 'Place';
-	address: Address;
+	address?: Address;
 	geo: GeoCoordinates;
 };
 
@@ -30,20 +30,38 @@ export type LocationRole = {
 	location: Place;
 };
 
-export type Citation = {
-	'@type': 'Dataset';
-	name: string;
-	url: string;
-};
-
 export type Venue = {
 	'@context': 'https://schema.org/';
 	'@type': 'Place';
 	'@id'?: string;
 	additionalType: AdditionalType[];
 	name: string;
-	description: string;
+	description?: string;
 	location: LocationRole;
-	citation: Citation[];
-	sameAs: string[];
+	citation?: string[];
+	sameAs?: string[];
+};
+
+export type DataDistribution = {
+	'@type': 'DataDownload';
+	encodingFormat: string;
+	contentUrl: string;
+};
+
+export type Dataset = {
+	'@id': string;
+	'@type': 'Dataset';
+	name: string;
+	description: string;
+	citation: string;
+	url: string;
+	distribution: DataDistribution[];
+	dateModified: string;
+	isBasedOn: string;
+};
+
+export type DataCatalog = {
+	'@context': 'https://schema.org';
+	'@type': 'DataCatalog';
+	dataset: Dataset[];
 };
