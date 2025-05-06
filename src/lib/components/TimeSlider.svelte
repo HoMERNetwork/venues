@@ -91,4 +91,20 @@
 		--depth: 0;
 		--noise: 0;
 	}
+
+	:global(.rangeSlider) {
+		font-size: 0.6rem;
+	}
+
+	@media (min-width: 640px) {
+		:global(.rangeSlider) {
+			font-size: 0.8rem;
+		}
+	}
+
+	@media (min-width: 768px) {
+		:global(.rangeSlider) {
+			font-size: 1rem;
+		}
+	}
 </style>

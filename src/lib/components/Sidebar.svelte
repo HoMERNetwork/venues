@@ -3,7 +3,8 @@
 		selectedFeature,
 		filteredVisibleFeatures,
 		countFeatures,
-		stringFilter
+		stringFilter,
+		isLoading
 	} from '$lib/stores';
 	import Venue from '$lib/components/Venue.svelte';
 	import VenuePreviewList from '$lib/components/VenuePreviewList.svelte';
@@ -38,11 +39,18 @@
 		<div class="card-body flex h-full flex-col p-4 pb-0">
 			<div class="flex-none px-4">
 				<h2 class="card-title text-2xl font-semibold">Venues</h2>
-				<p>
-					Showing {new Intl.NumberFormat().format(Object.keys($filteredVisibleFeatures).length)} out
-					of {new Intl.NumberFormat().format($countFeatures)}
-					venues
-				</p>
+				{#if $isLoading}
+					<p class="flex items-center">
+						<span class="loading loading-spinner loading-xs mr-2"></span>
+						Loading venues...
+					</p>
+				{:else}
+					<p>
+						Showing {new Intl.NumberFormat().format(Object.keys($filteredVisibleFeatures).length)} out
+						of {new Intl.NumberFormat().format($countFeatures)}
+						venues
+					</p>
+				{/if}
 			</div>
 
 			<!-- Search bar -->

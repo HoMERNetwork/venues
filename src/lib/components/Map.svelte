@@ -9,7 +9,7 @@
 
 	import { visibleFeatures, selectedFeature, hoveredFeatureState, stringFilter } from '$lib/stores';
 
-	import { map } from '$lib/stores';
+	import { map, isLoading } from '$lib/stores';
 	import type { FeatureCollection } from 'geojson';
 
 	let mapContainer: HTMLDivElement | '';
@@ -57,7 +57,7 @@
 					type: 'circle',
 					source: 'venues',
 					paint: {
-						'circle-radius': 6,
+						'circle-radius': 5,
 						'circle-color': '#0082CE'
 					}
 				});
@@ -122,7 +122,15 @@
 			}
 		});
 
-		$map?.on('move', updateVisibleFeatures);
+		// $map?.on('move', updateVisibleFeatures);
+		$map?.on('movestart', () => {
+			$isLoading = true;
+		});
+
+		$map?.on('moveend', () => {
+			$isLoading = false;
+			updateVisibleFeatures();
+		});
 
 		$map?.on('idle', updateVisibleFeatures);
 	});

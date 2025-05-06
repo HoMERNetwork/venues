@@ -14,3 +14,5 @@ export const map = writable<maplibregl.Map | null>(null);
 export const venueTypes = writable<{ label: string; value: string }[]>([]);
 
 export const stringFilter = writable<string>('');
+
+export const isLoading = writable<boolean>(false);
