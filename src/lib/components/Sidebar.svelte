@@ -15,23 +15,7 @@
 {#if $selectedFeature}
 	<div class="h-full overflow-auto">
 		<div class="card-body flex h-full flex-col p-4 pb-0">
-			<div class="flex flex-none items-center justify-between px-4">
-				<div>
-					<h2 class="card-title text-2xl font-semibold">Details</h2>
-					<p>Showing venue details</p>
-				</div>
-				<button
-					class="btn btn-ghost"
-					onclick={($selectedFeature = null)}
-					aria-label="Close venue details"
-				>
-					<X />
-				</button>
-			</div>
-			<div class="divider px-4"></div>
-			{#if $selectedFeature}
-				<Venue venue={$selectedFeature} />
-			{/if}
+			<Venue bind:venue={$selectedFeature} />
 		</div>
 	</div>
 {:else}

@@ -2,7 +2,14 @@ import csvParser from 'csv-parser';
 import * as fs from 'fs';
 import path from 'path';
 
-import type { DataDistribution, Dataset, Venue } from '../src/lib/types';
+import type {
+	DataDistribution,
+	Dataset,
+	Place,
+	Venue,
+	LocationRole,
+	Address
+} from '../src/lib/types';
 
 const INDEXFILE = '../static/datasets/index.jsonld';
 
@@ -73,12 +80,11 @@ const generateJsonLD = (dataset: Dataset, tsvFilepath: string, outputFilePath: s
 				? row.additionalTypeName.split(';').map((name: string) => name.trim())
 				: [];
 
-			// If no additional types, provide a standard 'Venue' type'
 			const additionalTypes =
 				additionalTypeIds.length > 0
 					? additionalTypeIds.map((id: string, index: number) => ({
 							'@id': id,
-							name: additionalTypeNames[index] || ''
+							name: additionalTypeNames[index] || undefined
 						}))
 					: [{ '@id': 'https://homernetwork.github.io/vocabulary/venues/Venue', name: 'Venue' }];
 
@@ -94,42 +100,55 @@ const generateJsonLD = (dataset: Dataset, tsvFilepath: string, outputFilePath: s
 			// Multiple SameAs
 			const sameAsUrls = row.sameAs ? row.sameAs.split(';').map((url: string) => url.trim()) : [];
 
+			// Location
+			const address: Address = { '@type': 'PostalAddress' };
+			if (row.addressLocality) address.addressLocality = row.addressLocality;
+			if (row.addressRegion) address.addressRegion = row.addressRegion;
+			if (row.postalCode) address.postalCode = row.postalCode;
+			if (row.streetAddress) address.streetAddress = row.streetAddress;
+
+			const locationDetails: Place = { '@type': 'Place' };
+			if (Object.keys(address).length > 1) {
+				// more than just @type
+				locationDetails.address = address;
+			}
+
+			// Geo
+			if (row.latitude && row.longitude) {
+				const latitude = parseFloat(row.latitude);
+				const longitude = parseFloat(row.longitude);
+
+				if (isNaN(latitude) || isNaN(longitude)) {
+					console.error(`Invalid latitude or longitude for ID: ${row.id}`);
+					return;
+				}
+
+				const geo = {
+					'@type': 'GeoCoordinates' as const,
+					latitude: latitude,
+					longitude: longitude
+				};
+
+				locationDetails.geo = geo;
+			}
+
+			const venueLocation: LocationRole = { '@type': 'Role', location: locationDetails };
+			if (row.startDate) venueLocation.startDate = row.startDate;
+			if (row.endDate) venueLocation.endDate = row.endDate;
+
 			const venue: Venue = {
+				'@id': row.id,
 				'@context': 'https://schema.org/',
 				'@type': 'Place',
-				'@id': row.id,
-				additionalType: additionalTypes.length > 0 ? additionalTypes : undefined,
 				name: row.name,
-				description: row.description,
-				location: {
-					'@type': 'Role',
-					startDate: row.startDate,
-					endDate: row.endDate,
-					location: {
-						'@type': 'Place',
-						address: {
-							'@type': 'PostalAddress',
-							addressLocality: row.addressLocality,
-							addressRegion: row.addressRegion,
-							postalCode: row.postalCode,
-							streetAddress: row.streetAddress
-						},
-						geo: {
-							'@type': 'GeoCoordinates',
-							latitude: parseFloat(row.latitude),
-							longitude: parseFloat(row.longitude)
-						}
-					}
-				},
-				citation: citations,
-				sameAs: sameAsUrls
+				additionalType: additionalTypes,
+				location: venueLocation
 			};
 
-			Object.keys(venue).forEach((key) => {
-				if (venue[key] === undefined) {
-					delete venue[key];
-				}
-			});
+			if (row.description) venue.description = row.description;
+
+			if (citations.length > 0) venue.citation = citations;
+			if (sameAsUrls.length > 0) venue.sameAs = sameAsUrls;
 
 			venues.push(venue);
 		})

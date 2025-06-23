@@ -20,7 +20,7 @@ export type GeoCoordinates = {
 export type Place = {
 	'@type': 'Place';
 	address?: Address;
-	geo: GeoCoordinates;
+	geo?: GeoCoordinates;
 };
 
 export type LocationRole = {

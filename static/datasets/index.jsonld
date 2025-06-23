@@ -28,6 +28,28 @@
 			],
 			"dateModified": "2025-03-20",
 			"isBasedOn": "cinema-context.tsv"
+		},
+		{
+			"@id": "suriname-time-machine",
+			"@type": "Dataset",
+			"name": "Suriname Time Machine",
+			"description": "Suriname Time Machine is a project that aims to create a digital archive of Surinamese history and culture.",
+			"citation": "",
+			"url": "",
+			"distribution": [
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "text/tab-separated-values",
+					"contentUrl": "suriname-time-machine.tsv"
+				},
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "application/ld+json",
+					"contentUrl": "suriname-time-machine.jsonld"
+				}
+			],
+			"dateModified": "2025-05-07",
+			"isBasedOn": "suriname-time-machine.tsv"
 		}
 	]
 }

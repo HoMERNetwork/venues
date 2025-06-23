@@ -2,7 +2,16 @@
 	import type { Venue } from '$lib/types';
 	import VenueMapPreview from './VenueMapPreview.svelte';
 	import linkifyHtml from 'linkify-html';
-	import { MapPin, FileText, Link2, CalendarRange, Fullscreen, Copy, Check } from '@lucide/svelte';
+	import {
+		MapPin,
+		FileText,
+		Link2,
+		CalendarRange,
+		Fullscreen,
+		Copy,
+		Check,
+		X
+	} from '@lucide/svelte';
 
 	import { map } from '$lib/stores';
 
@@ -36,7 +45,12 @@
 </script>
 
 <div class="bg-base-00 w-full rounded-lg px-4">
-	<h2 class="text-2xl font-bold">{venue.name}</h2>
+	<div class="flex flex-none items-center justify-between">
+		<h2 class="text-2xl font-bold">{venue.name}</h2>
+		<button class="btn btn-ghost" onclick={(venue = null)} aria-label="Close venue details">
+			<X />
+		</button>
+	</div>
 
 	{#if venue.location.startDate}
 		<div class="mb-3 flex items-center gap-1 text-sm opacity-80">
@@ -71,7 +85,7 @@
 		</h3>
 
 		<div class="mb-3 h-48 w-full overflow-hidden">
-			<VenueMapPreview geo={venue.location.location.geo} />
+			<VenueMapPreview geo={venue.location.location.geo!} />
 		</div>
 
 		<div class="mb-6 grid grid-cols-1 gap-2">
@@ -93,12 +107,12 @@
 					class="badge hover:bg-base-300 flex cursor-pointer items-center gap-2 font-mono transition-colors"
 					onclick={() =>
 						copyToClipboard(
-							`${venue.location.location.geo.latitude}, ${venue.location.location.geo.longitude}`,
+							`${venue.location.location.geo!.latitude}, ${venue.location.location.geo!.longitude}`,
 							'coordinates'
 						)}
 					aria-label="Copy coordinates"
 				>
-					{venue.location.location.geo.latitude}, {venue.location.location.geo.longitude}
+					{venue.location.location.geo!.latitude}, {venue.location.location.geo!.longitude}
 					{#if copiedStates['coordinates']}
 						<Check size={14} class="text-success" />
 					{:else}

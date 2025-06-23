@@ -1,20 +1,32 @@
 import { countFeatures, venueTypes } from './stores';
 import type { Dataset, Venue } from '$lib/types';
-import { type Option } from 'svelte-multiselect';
+import type { ObjectOption } from 'svelte-multiselect';
 
 import { base } from '$app/paths';
 
-export const loadData = async () => {
-	const res = await fetch(base + 'datasets/index.json');
+type Fetch = typeof fetch;
+
+export const loadData = async (fetch: Fetch) => {
+	const res = await fetch(base + '/datasets/index.jsonld');
 	const index = await res.json();
 
 	const venuesData: Venue[] = [];
 
-	index.dataset.forEach(async (dataset: Dataset) => {
-		console.log(dataset['@id']);
-		const data = await fetch(dataset['@id']).then((res) => res.json());
-		venuesData.push(...data);
-	});
+	if (index.dataset && Array.isArray(index.dataset)) {
+		await Promise.all(
+			index.dataset.map(async (dataset: Dataset) => {
+				const contentUrl = dataset.distribution.find(
+					(distribution) => distribution.encodingFormat === 'application/ld+json'
+				)?.contentUrl;
+
+				const res = await fetch('datasets/' + contentUrl);
+				const data = await res.json();
+				venuesData.push(...data.hasPart);
+			})
+		);
+	} else {
+		console.error('No dataset array found in the index:', index);
+	}
 
 	const geoJsonFeatures = convertToGeoJson(venuesData);
 	countFeatures.set(geoJsonFeatures.features.length);
@@ -26,48 +38,63 @@ export const loadData = async () => {
 };
 
 const convertToGeoJson = (data: Venue[]) => {
+	const features = data.reduce((features: GeoJSON.Feature[], venue, index) => {
+		if (!venue.location?.location?.geo?.longitude || !venue.location?.location?.geo?.latitude) {
+			return features;
+		}
+
+		const type = Array.isArray(venue.additionalType)
+			? venue.additionalType.map((type) => type['@id'])
+			: [];
+
+		const startYear = venue.location?.startDate
+			? new Date(venue.location.startDate).getFullYear()
+			: null;
+		const endYear = venue.location?.endDate
+			? new Date(venue.location.endDate).getFullYear()
+			: new Date().getFullYear();
+
+		const feature: GeoJSON.Feature = {
+			id: index,
+			type: 'Feature',
+			geometry: {
+				type: 'Point',
+				coordinates: [venue.location.location.geo.longitude, venue.location.location.geo.latitude]
+			},
+			properties: {
+				name: venue.name,
+				nameLower: venue.name.toLowerCase(),
+				type: type,
+				startYear: startYear,
+				endYear: endYear,
+				venue: venue // Full venue data
+			}
+		};
+
+		features.push(feature);
+		return features;
+	}, []);
+
 	const geojson = {
 		type: 'FeatureCollection',
-		features: data.map((venue) => {
-			const i = data.indexOf(venue);
-			const type = venue.additionalType.map((type) => type['@id']);
-			const startYear = venue.location.startDate
-				? new Date(venue.location.startDate).getFullYear()
-				: null;
-			const endYear = venue.location.endDate
-				? new Date(venue.location.endDate).getFullYear()
-				: new Date().getFullYear();
-			return {
-				id: i,
-				type: 'Feature',
-				geometry: {
-					type: 'Point',
-					coordinates: [venue.location.location.geo.longitude, venue.location.location.geo.latitude]
-				},
-				properties: {
-					name: venue.name,
-					type: type,
-					startYear: startYear,
-					endYear: endYear,
-					venue: venue // Full venue data (as string)
-				}
-			};
-		})
+		features: features
 	};
 
 	return geojson;
 };
 
 const getVenueTypes = (data: Venue[]) => {
-	const venueTypes = data.map((venue) => venue.additionalType);
-	const uniqueVenueTypes = [...new Set(venueTypes.flat())];
+	const allVenueTypes = data.flatMap((venue) => venue.additionalType);
 
-	const options: Option[] = uniqueVenueTypes.map((venueType) => {
-		return {
-			label: venueType.name,
-			value: venueType['@id']
-		};
+	const uniqueTypesMap = new Map();
+	allVenueTypes.forEach((venueType) => {
+		uniqueTypesMap.set(venueType['@id'], venueType);
 	});
 
-	return options.sort();
+	const options: ObjectOption[] = Array.from(uniqueTypesMap.values()).map((venueType) => ({
+		label: venueType.name,
+		value: venueType['@id']
+	}));
+
+	return options.sort((a, b) => String(a.label).localeCompare(String(b.label)));
 };
