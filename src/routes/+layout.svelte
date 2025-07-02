@@ -24,8 +24,11 @@
 					resetApp();
 					goto(`${base}/`);
 				}}
-				class="btn btn-ghost text-sm sm:text-xl">HoMER Venue Research Index</a
+				class="btn btn-ghost text-sm sm:text-xl"
 			>
+				<span class="sm:hidden">HoMER Venue Index</span>
+				<span class="hidden sm:inline">HoMER Venue Research Index</span>
+			</a>
 		</div>
 		<div class="flex-none">
 			<ul class="menu menu-horizontal px-1">
