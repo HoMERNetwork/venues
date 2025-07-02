@@ -12,7 +12,7 @@
 			"@type": "Dataset",
 			"name": "Cinema Context",
 			"description": "Cinema Context is a database of Dutch cinema and film culture.",
-			"citation": "Cinema Context. (n.d.). Cinema Context. https://www.cinemacontext.nl/",
+			"citation": "Cinema Context. n.d. Cinema Context. https://www.cinemacontext.nl/",
 			"url": "https://www.cinemacontext.nl/",
 			"distribution": [
 				{
@@ -34,8 +34,8 @@
 			"@type": "Dataset",
 			"name": "Suriname Time Machine",
 			"description": "Suriname Time Machine is a project that aims to create a digital archive of Surinamese history and culture.",
-			"citation": "",
-			"url": "",
+			"citation": "Van Oort, Thunnis. 2025. Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey.",
+			"url": "https://surinametijdmachine.org",
 			"distribution": [
 				{
 					"@type": "DataDownload",
@@ -50,6 +50,72 @@
 			],
 			"dateModified": "2025-05-07",
 			"isBasedOn": "suriname-time-machine.tsv"
+		},
+		{
+			"@id": "irelands-first-cinemas",
+			"@type": "Dataset",
+			"name": "Ireland's First Cinemas",
+			"description": "Tracing the history of Irish cinemas in the silent era",
+			"citation": "Condon, Denis. \"Ireland's First Cinemas.\" Last updated 2025. https://primitivecinema.github.io/irishcinemaproject/",
+			"url": "https://primitivecinema.github.io/irishcinemaproject/",
+			"distribution": [
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "text/tab-separated-values",
+					"contentUrl": "irelands-first-cinemas.tsv"
+				},
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "application/ld+json",
+					"contentUrl": "irelands-first-cinemas.jsonld"
+				}
+			],
+			"dateModified": "2025-06-27",
+			"isBasedOn": "irelands-first-cinemas.tsv"
+		},
+		{
+			"@id": "trinidad-and-guiana-cinemas",
+			"@type": "Dataset",
+			"name": "Trinidad and Guiana Cinemas",
+			"description": "A database of cinemas in Trinidad and Guiana.",
+			"citation": "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey.",
+			"url": "",
+			"distribution": [
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "text/tab-separated-values",
+					"contentUrl": "trinidad-and-guiana-cinemas.tsv"
+				},
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "application/ld+json",
+					"contentUrl": "trinidad-and-guiana-cinemas.jsonld"
+				}
+			],
+			"dateModified": "2025-06-29",
+			"isBasedOn": "trinidad-and-guiana-cinemas.tsv"
+		},
+		{
+			"@id": "springfield-venues",
+			"@type": "Dataset",
+			"name": "Springfield Venues",
+			"description": "A database of venues in Springfield.",
+			"citation": "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/",
+			"url": "https://www.mappingmovies.com/springfield-venues/",
+			"distribution": [
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "text/tab-separated-values",
+					"contentUrl": "springfield-venues.tsv"
+				},
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "application/ld+json",
+					"contentUrl": "springfield-venues.jsonld"
+				}
+			],
+			"dateModified": "2025-07-01",
+			"isBasedOn": "springfield-venues.tsv"
 		}
 	]
 }

@@ -3,8 +3,8 @@
   "@type": "Dataset",
   "name": "Suriname Time Machine",
   "description": "Suriname Time Machine is a project that aims to create a digital archive of Surinamese history and culture.",
-  "citation": "",
-  "url": "",
+  "citation": "Van Oort, Thunnis. 2025. Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey.",
+  "url": "https://surinametijdmachine.org",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -17,7 +17,7 @@
       "contentUrl": "suriname-time-machine.jsonld"
     }
   ],
-  "dateModified": "2025-05-13",
+  "dateModified": "2025-07-02",
   "isBasedOn": "suriname-time-machine.tsv",
   "hasPart": [
     {
@@ -27,8 +27,16 @@
       "name": "Bellevue",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -60,8 +68,12 @@
       "name": "Kino Scheurlen",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+          "name": "zaal"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -93,8 +105,16 @@
       "name": "Cinéma Pathé Frères",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -127,8 +147,16 @@
       "name": "Hollandsch-Amerikaansche Bioscoop",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -160,8 +188,16 @@
       "name": "Cinema Elize",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -194,8 +230,16 @@
       "name": "Kinematograaf",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -227,8 +271,16 @@
       "name": "Luxor",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -261,8 +313,16 @@
       "name": "Royal",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -295,8 +355,16 @@
       "name": "Sociable Hall",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -323,8 +391,16 @@
       "name": "Tower",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -356,8 +432,16 @@
       "name": "Kong Ngie Tong",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -388,8 +472,16 @@
       "name": "Star",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -421,8 +513,16 @@
       "name": "Jasodra",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -454,8 +554,12 @@
       "name": "Empire",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+          "name": "Verenigingsgebouw"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -486,8 +590,16 @@
       "name": "City",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -519,8 +631,16 @@
       "name": "Lincoln",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -552,8 +672,16 @@
       "name": "(New) Royal",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -585,8 +713,12 @@
       "name": "Liberty",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "military cinema"
         }
       ],
       "location": {
@@ -618,8 +750,16 @@
       "name": "De Paarl",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -650,8 +790,16 @@
       "name": "TBL Cinemas",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -682,8 +830,16 @@
       "name": "Victoria",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -715,8 +871,16 @@
       "name": "De Kroon",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -743,8 +907,16 @@
       "name": "Leliebioscoop",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -777,8 +949,16 @@
       "name": "Chung Fa",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -804,8 +984,16 @@
       "name": "Leter",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -832,8 +1020,16 @@
       "name": "Ansoe",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -864,8 +1060,16 @@
       "name": "Beatrix Theater",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -896,8 +1100,16 @@
       "name": "Paranam Theater",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -923,8 +1135,16 @@
       "name": "Sitalsing",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -952,8 +1172,16 @@
       "name": "Theater Nickerie",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -980,8 +1208,16 @@
       "name": "Gaiety Theater",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1009,8 +1245,16 @@
       "name": "Juliana",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1041,8 +1285,16 @@
       "name": "Volkstheater",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1069,8 +1321,16 @@
       "name": "Roshnie",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1102,8 +1362,16 @@
       "name": "Bernhard theater",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1128,8 +1396,16 @@
       "name": "Perkash",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1154,8 +1430,16 @@
       "name": "Masanga",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1179,8 +1463,16 @@
       "name": "Diamond",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1212,8 +1504,16 @@
       "name": "Milan",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1239,8 +1539,16 @@
       "name": "Kino Leter",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1267,8 +1575,16 @@
       "name": "Munnikon theater",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1295,8 +1611,16 @@
       "name": "[Amerikaanse bioscoop]",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1323,8 +1647,16 @@
       "name": "Metro",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multiplex",
+          "name": "Multiplex"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1350,8 +1682,12 @@
       "name": "Taj Mahal",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+          "name": "Ontspanningszaal"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -1382,8 +1718,16 @@
       "name": "Shanti",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-          "name": "Venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {

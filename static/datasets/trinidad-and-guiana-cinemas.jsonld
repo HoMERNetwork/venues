@@ -1,0 +1,4754 @@
+{
+  "@id": "trinidad-and-guiana-cinemas",
+  "@type": "Dataset",
+  "name": "Trinidad and Guiana Cinemas",
+  "description": "A database of cinemas in Trinidad and Guiana.",
+  "citation": "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey.",
+  "url": "",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/tab-separated-values",
+      "contentUrl": "trinidad-and-guiana-cinemas.tsv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "trinidad-and-guiana-cinemas.jsonld"
+    }
+  ],
+  "dateModified": "2025-07-02",
+  "isBasedOn": "trinidad-and-guiana-cinemas.tsv",
+  "hasPart": [
+    {
+      "@id": "1",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Astor",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66117876,
+            "longitude": -61.5200403
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "2",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cinema 2",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65519636,
+            "longitude": -61.51224199
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "3",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Deluxe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66287415,
+            "longitude": -61.51069165
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "4",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Electric Central",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66267241,
+            "longitude": -61.51939315
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "5",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Embassy",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65626484,
+            "longitude": -61.51223792
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "6",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Empire",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65519636,
+            "longitude": -61.51224199
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "7",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gaiety",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64788843,
+            "longitude": -61.49058959
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "8",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Globe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65663052,
+            "longitude": -61.51229117
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "9",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "New City",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65968537,
+            "longitude": -61.50990573
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "10",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Odeon",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65671725,
+            "longitude": -61.50778414
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "11",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Olympic",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66643371,
+            "longitude": -61.50475889
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "12",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Pyramid",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65812858,
+            "longitude": -61.50833926
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "13",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rex",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66142237,
+            "longitude": -61.50927037
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "14",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rio",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64922296,
+            "longitude": -61.48447843
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "15",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Royal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65721146,
+            "longitude": -61.50823533
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "16",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Roxy",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66818712,
+            "longitude": -61.52696191
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "17",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "St. James",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.6695589,
+            "longitude": -61.52807488
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "18",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "State",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65617522,
+            "longitude": -61.51239012
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "19",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Strand",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65810384,
+            "longitude": -61.51374399
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "20",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Superstar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65522268,
+            "longitude": -61.51134606
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "21",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Vistarama",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65519636,
+            "longitude": -61.51224199
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "22",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Embassy",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.30468559,
+            "longitude": -61.45065309
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "23",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Empire",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27883098,
+            "longitude": -61.46269456
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "24",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gaiety",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27883098,
+            "longitude": -61.46269456
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "25",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Globe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27587402,
+            "longitude": -61.46164502
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "26",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Habosco",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27883098,
+            "longitude": -61.46269456
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "27",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metro",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.28000758,
+            "longitude": -61.46503149
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "28",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "National",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27692268,
+            "longitude": -61.46414815
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "29",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "New DeLuxe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.28026093,
+            "longitude": -61.4650154
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "30",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "New",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.30247976,
+            "longitude": -61.44931381
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "31",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Palace",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.30247976,
+            "longitude": -61.44931381
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "32",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Radio-City",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27692268,
+            "longitude": -61.18505951
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "33",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rivoli",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27820529,
+            "longitude": -61.45960093
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "34",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Carib",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.42565405,
+            "longitude": -61.45865566
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "35",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Couva",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.42565405,
+            "longitude": -61.45865566
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "36",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metro",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.42565405,
+            "longitude": -61.45865566
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "37",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Reno",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.42565405,
+            "longitude": -61.45865566
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "38",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Revue",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.42565405,
+            "longitude": -61.45865566
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "39",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Eros",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64570896,
+            "longitude": -61.38451299
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "40",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Monarch",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64514323,
+            "longitude": -61.39318312
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "41",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Palladium",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64448267,
+            "longitude": -61.39011666
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "42",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Crest",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64595918,
+            "longitude": -61.40994484
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "43",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Planet",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.6568098,
+            "longitude": -61.40953454
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "44",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Silk",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.59161795,
+            "longitude": -61.13123409
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "45",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Oriental",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.59161795,
+            "longitude": -61.13123409
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "46",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Palladium",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64512898,
+            "longitude": -61.39021208
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "47",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Central",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.29146942,
+            "longitude": -61.38622316
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "48",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Princess",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.29146942,
+            "longitude": -61.38622316
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "49",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Empress",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.29146942,
+            "longitude": -61.38622316
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "50",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "State",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.29146942,
+            "longitude": -61.38622316
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "51",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lyceum",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.09279665,
+            "longitude": -61.52892368
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "52",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Plaza",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.09279665,
+            "longitude": -61.52892368
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "53",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Regent",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.14368824,
+            "longitude": -61.51132169
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "54",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Point Fortin",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.17060061,
+            "longitude": -61.67100292
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "55",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Strand",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.17110436,
+            "longitude": -61.67889286
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "56",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rex",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 11.1827121,
+            "longitude": -60.73606298
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "57",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tobago",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 11.18532655,
+            "longitude": -60.72760481
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "58",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Fyzabad Empire",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.18013681,
+            "longitude": -61.53447237
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "59",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Universal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.18013681,
+            "longitude": -61.53447237
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "60",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Castle",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.51383646,
+            "longitude": -61.39906355
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "61",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Central",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.1961024,
+            "longitude": -61.40205239
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "62",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Electric theater",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.1961024,
+            "longitude": -61.40205239
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "63",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Globe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.51503916,
+            "longitude": -61.41368685
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "64",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Jubilee",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.51503388,
+            "longitude": -61.4137083
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "65",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Popular",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.1961024,
+            "longitude": -61.40205239
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "66",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Star",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.51570305,
+            "longitude": -61.39522628
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "67",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Regal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.55804063,
+            "longitude": -61.38113398
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "68",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Arima",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.63212532,
+            "longitude": -61.28382062
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "69",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cinema Circuit",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.63917292,
+            "longitude": -61.28258918
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "70",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Princess",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.64279187,
+            "longitude": -61.28140855
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "71",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Windsor",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65034587,
+            "longitude": -61.43634354
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "72",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sunbeam",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.16944972,
+            "longitude": -61.43674943
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "73",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Regent",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.16542838,
+            "longitude": -61.42694316
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "74",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mars",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65073878,
+            "longitude": -61.37591606
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "75",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rex",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.7242864,
+            "longitude": -61.56309221
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "76",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Castle",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.6633748,
+            "longitude": -61.45005956
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "77",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gem",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65135057,
+            "longitude": -61.45306095
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "78",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Globe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66490977,
+            "longitude": -61.45061544
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "79",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ritz",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65075265,
+            "longitude": -61.45977358
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "80",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Pyramid",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65218064,
+            "longitude": -61.44566906
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "81",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sanz",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65026602,
+            "longitude": -61.45464916
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "82",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Venus",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.23568781,
+            "longitude": -61.49871922
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "83",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Emerald",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.48082749,
+            "longitude": -61.46844193
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "84",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mars",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.48156558,
+            "longitude": -61.43649133
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "85",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Pax",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.48122798,
+            "longitude": -61.43623384
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "86",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sunset",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.40341944,
+            "longitude": -61.46881699
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "87",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tivoli",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.07244184,
+            "longitude": -61.865176
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "88",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Crown",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.33172013,
+            "longitude": -61.1689577
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "89",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Skylar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.30715223,
+            "longitude": -61.17797684
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "90",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Hummingbird",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.19933103,
+            "longitude": -61.43755873
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "91",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Zenith",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.32696192,
+            "longitude": -61.41114979
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "92",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Diana",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.63411429,
+            "longitude": -61.33520572
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "93",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Flavian",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.24482264,
+            "longitude": -61.6211668
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "94",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Palace",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.24482264,
+            "longitude": -61.6211668
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "95",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Phoenix",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.24482264,
+            "longitude": -61.6211668
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "96",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cameo",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.1961024,
+            "longitude": -61.40205239
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "97",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tyrol",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.1961024,
+            "longitude": -61.40205239
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "98",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Twilight drive in",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.30080565,
+            "longitude": -61.44980314
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "99",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Kay Donna drive in",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.6341502,
+            "longitude": -61.41306928
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "100",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Hylight drive in",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.53380996,
+            "longitude": -61.41488853
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "101",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Presidente",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.65140309,
+            "longitude": -61.44152093
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "102",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Globe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.2788628,
+            "longitude": -61.46228853
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "103",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sunset",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.45215519,
+            "longitude": -61.44116962
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "104",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rex",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.66863468828378,
+            "longitude": -61.48795758
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "105",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Strand",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27881657,
+            "longitude": -61.46272599
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "106",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Prince",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.27559177,
+            "longitude": -61.46436556
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "107",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "St Madeline",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.26911935,
+            "longitude": -61.42553389
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "108",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Starlite drive in",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.73710453,
+            "longitude": -61.55519579
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "109",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Bel Air",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.17009371,
+            "longitude": -61.67031627
+          }
+        }
+      },
+      "description": "Location estimated",
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "110",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Astoria",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.17060061,
+            "longitude": -61.67495113
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "111",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "41 Buxton Village",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.772266122,
+            "longitude": -58.0409587
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "112",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Apollo",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.22975229,
+            "longitude": -57.32255906
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "113",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Astor",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.814198868,
+            "longitude": -58.16160669
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "114",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Atlantis",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 7.107727572,
+            "longitude": -58.47790716
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "115",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Atma",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.280156356,
+            "longitude": -57.5402032
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "116",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Avon",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.783570967,
+            "longitude": -58.19162159
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "117",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Capitol",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.802684709,
+            "longitude": -58.16415128
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "118",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Colloseum",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.867902759,
+            "longitude": -58.30453019
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "119",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cosmpolitan",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.229048533,
+            "longitude": -57.32393227
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "120",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Crescent",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.126173406,
+            "longitude": -58.33628747
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "121",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "DeLuxe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.703486818,
+            "longitude": -58.16844898
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "122",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Duchess",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.875060749,
+            "longitude": -58.30489497
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "123",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Earlo",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.885477988,
+            "longitude": -58.31302743
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "124",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Empire",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.815602301,
+            "longitude": -58.15951155
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "125",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gaiety",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.246904464,
+            "longitude": -57.51888462
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "126",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gaiety",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.807670728,
+            "longitude": -58.16149558
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "127",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gaiety",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.246654289,
+            "longitude": -57.51789072
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "128",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gem",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.762411666,
+            "longitude": -57.99217001
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "129",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gemini",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.606548365,
+            "longitude": -57.80432949
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "130",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Globe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.24686865,
+            "longitude": -57.51886842
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "131",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Hansa",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.689154429,
+            "longitude": -57.91858116
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "132",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Hollywood",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.809935572,
+            "longitude": -58.15927915
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "133",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Indramahal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.769229284,
+            "longitude": -58.17632761
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "134",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Jyoti",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.360550442,
+            "longitude": -57.58431547
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "135",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Laxhmi Liberty",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.815273015,
+            "longitude": -58.14600996
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "136",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "London Electric Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.24495616,
+            "longitude": -57.5192664
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "137",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lotus",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.231400105,
+            "longitude": -57.3126376
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "138",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lyric",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.829456193,
+            "longitude": -58.08721081
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "139",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Maya",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.879633633,
+            "longitude": -57.14165231
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "140",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Malanie",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.781433919,
+            "longitude": -58.00839333
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "141",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metro",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.81556591,
+            "longitude": -58.15949688
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "142",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metropole",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.811361669,
+            "longitude": -58.16230098
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "143",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metropolitian",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.407574182,
+            "longitude": -58.62038613
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "144",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mohani",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.995129252,
+            "longitude": -58.43023099
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "145",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Monarch",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.865956549,
+            "longitude": -58.2787058
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "146",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "National",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.750766646,
+            "longitude": -57.98291646
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "147",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Novelty",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.869644182,
+            "longitude": -57.14869042
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "148",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Odeon",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.200928148,
+            "longitude": -57.26355314
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "149",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Olympic",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.809146088,
+            "longitude": -58.16724175
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "150",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Palladium",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.87300388,
+            "longitude": -57.14350553
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "151",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Palm Tree",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.01307003,
+            "longitude": -58.30535689
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "152",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Paragon",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 7.318568129,
+            "longitude": -58.48427788
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "153",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Plaza",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.809245084,
+            "longitude": -58.1611291
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "154",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Prince of Wales",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.697046061,
+            "longitude": -58.19999241
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "155",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Raaz",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 7.408249967,
+            "longitude": -58.59790919
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "156",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Radio City",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.934378745,
+            "longitude": -57.14933484
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "157",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "RajMah al",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.407325441,
+            "longitude": -58.61771285
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "158",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Regal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.809792694,
+            "longitude": -58.19341021
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "159",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rialto",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.813714858,
+            "longitude": -58.14663827
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "160",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rio",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.798111477,
+            "longitude": -58.16328032
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "161",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ritz",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.281023756,
+            "longitude": -57.53960626
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "162",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rivoli",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.265384904,
+            "longitude": -57.51112527
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "163",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Roop Mahal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.255247047,
+            "longitude": -57.35592863
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "164",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Roxy",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.870879564,
+            "longitude": -58.28947754
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "165",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Royal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.229821617,
+            "longitude": -57.31371048
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "166",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Saraswatie",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 7.273578834,
+            "longitude": -58.47855098
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "167",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Star",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.900012723,
+            "longitude": -57.13658817
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "168",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Star",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.799304143,
+            "longitude": -58.16292136
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "169",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Star-Lite",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.796980477,
+            "longitude": -58.18490887
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "170",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Star-Lite",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.820221247,
+            "longitude": -58.08235523
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "171",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Strand Deluxe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.247948288,
+            "longitude": -57.51841265
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "172",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Strand Deluxe",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.896540823,
+            "longitude": -58.32121227
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "173",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tarla",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.880848809,
+            "longitude": -58.31920938
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "174",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tiffany",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.86060422,
+            "longitude": -58.42066347
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "175",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tivoli",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.800325165,
+            "longitude": -58.06790173
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "176",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Vijay",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.941010007,
+            "longitude": -58.0665024
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "177",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "yollanda",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.254278388,
+            "longitude": -57.38540585
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "178",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Yuvindra",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.923249947,
+            "longitude": -58.4019703
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    },
+    {
+      "@id": "179",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Movietowne",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 6.829550854,
+            "longitude": -58.11363848
+          }
+        }
+      },
+      "citation": [
+        "Burns, James. 2025. South Asian film in Trinidad and Guyana. In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey"
+      ]
+    }
+  ]
+}

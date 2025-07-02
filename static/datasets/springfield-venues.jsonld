@@ -1,0 +1,2093 @@
+{
+  "@id": "springfield-venues",
+  "@type": "Dataset",
+  "name": "Springfield Venues",
+  "description": "A database of venues in Springfield.",
+  "citation": "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/",
+  "url": "https://www.mappingmovies.com/springfield-venues/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/tab-separated-values",
+      "contentUrl": "springfield-venues.tsv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "springfield-venues.jsonld"
+    }
+  ],
+  "dateModified": "2025-07-02",
+  "isBasedOn": "springfield-venues.tsv",
+  "hasPart": [
+    {
+      "@id": "1",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Auditorium",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "286 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1052143868,
+            "longitude": -72.5914659201
+          }
+        },
+        "startDate": "1902",
+        "endDate": "1900"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "2",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Grand Opera House",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "286 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1052143868,
+            "longitude": -72.5914659201
+          }
+        },
+        "startDate": "1904",
+        "endDate": "1902"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "3",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Poli's Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "286 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.10521439,
+            "longitude": -72.59146592
+          }
+        },
+        "startDate": "1913",
+        "endDate": "1904"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "http://www.performingartsarchive.com/Ephemera/Postcards/Polis-Theatre-Block_Springfield-MA_1910/Polis-Theatre-Block_Springfield-MA_1910.htm"
+      ]
+    },
+    {
+      "@id": "4",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Poli's Park Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "286 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.10521439,
+            "longitude": -72.59146592
+          }
+        },
+        "startDate": "1914",
+        "endDate": "1913"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "http://www.performingartsarchive.com/Ephemera/Postcards/Polis-Theatre-Block_Springfield-MA_1910/Polis-Theatre-Block_Springfield-MA_1910.htm"
+      ]
+    },
+    {
+      "@id": "5",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Court Square Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "11 Elm Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.100996037,
+            "longitude": -72.5882389085
+          }
+        },
+        "startDate": "1914",
+        "endDate": "1897"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://mahlerfoundation.org/mahler/locations/america/springfield/court-square-theater/"
+      ]
+    },
+    {
+      "@id": "6",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Nelson Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "254 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1042548629,
+            "longitude": -72.5944833269
+          }
+        },
+        "startDate": "1912",
+        "endDate": "1898"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://www.cinematreasures.org/theaters/3721"
+      ]
+    },
+    {
+      "@id": "7",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": " Fox-Nelson Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "254 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1042548629,
+            "longitude": -72.5944833269
+          }
+        },
+        "startDate": "1925",
+        "endDate": "1912"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "https://www.cinematreasures.org/theaters/3721"
+      ]
+    },
+    {
+      "@id": "8",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Fox's Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "254 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1042548629,
+            "longitude": -72.5944833269
+          }
+        },
+        "startDate": "1934",
+        "endDate": "1925"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "https://www.cinematreasures.org/theaters/3721"
+      ]
+    },
+    {
+      "@id": "9",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Art Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "254 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1042548629,
+            "longitude": -72.5944833269
+          }
+        },
+        "startDate": "1956",
+        "endDate": "1934"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://www.cinematreasures.org/theaters/3721"
+      ]
+    },
+    {
+      "@id": "10",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gilmore's Opera House",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "414 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1020708483,
+            "longitude": -72.5896810795
+          }
+        },
+        "startDate": "1896",
+        "endDate": "1881"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3717"
+      ]
+    },
+    {
+      "@id": "11",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "New Gilmore Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "414 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1020708483,
+            "longitude": -72.5896810795
+          }
+        },
+        "startDate": "1914",
+        "endDate": "1897"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3717"
+      ]
+    },
+    {
+      "@id": "12",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": " Gilmore Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "414 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1020708483,
+            "longitude": -72.5896810795
+          }
+        },
+        "startDate": "1920",
+        "endDate": "1915"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3717"
+      ]
+    },
+    {
+      "@id": "13",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Capitol Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "414 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1020708483,
+            "longitude": -72.5896810795
+          }
+        },
+        "startDate": "1968",
+        "endDate": "1920"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3717"
+      ]
+    },
+    {
+      "@id": "14",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Poli's Palace",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "192 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.10426043,
+            "longitude": -72.5924995093
+          }
+        },
+        "startDate": "1929",
+        "endDate": "1913"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "http://www.performingartsarchive.com/Theatres/Theatres-P/Polis-Theatre_Springfield-MA/Polis-Theatre_Springfield-MA.htm"
+      ]
+    },
+    {
+      "@id": "15",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Fox-Poli's Palace",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "192 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.10426043,
+            "longitude": -72.5924995093
+          }
+        },
+        "startDate": "1934",
+        "endDate": "1929"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "http://www.performingartsarchive.com/Theatres/Theatres-P/Polis-Theatre_Springfield-MA/Polis-Theatre_Springfield-MA.htm"
+      ]
+    },
+    {
+      "@id": "16",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Loew's-Poli Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "192 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.10426043,
+            "longitude": -72.5924995093
+          }
+        },
+        "startDate": "1965",
+        "endDate": "1934"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "http://www.performingartsarchive.com/Theatres/Theatres-P/Polis-Theatre_Springfield-MA/Polis-Theatre_Springfield-MA.htm"
+      ]
+    },
+    {
+      "@id": "17",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Nicolet Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "418 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.101982656,
+            "longitude": -72.5894935805
+          }
+        },
+        "startDate": "1907",
+        "endDate": "1907"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "18",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "New Bijou Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "91 Worthington Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1030476521,
+            "longitude": -72.5934437359
+          }
+        },
+        "startDate": "1975",
+        "endDate": "1910"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ],
+      "sameAs": [
+        "https://www.cinematreasures.org/theaters/4768"
+      ]
+    },
+    {
+      "@id": "19",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Edisonia Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "421 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1020514193,
+            "longitude": -72.5889451921
+          }
+        },
+        "startDate": "1913",
+        "endDate": "1908"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "20",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Princess Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "421 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1020514193,
+            "longitude": -72.5889451921
+          }
+        },
+        "startDate": "1914",
+        "endDate": "1913"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "21",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "One Cent Exhibit",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "231 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1047340588,
+            "longitude": -72.5946794645
+          }
+        },
+        "startDate": "1909",
+        "endDate": "1906"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "22",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Pictorial Subway Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "231 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1047340588,
+            "longitude": -72.5946794645
+          }
+        },
+        "startDate": "1916",
+        "endDate": "1909"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "23",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Comique Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "621 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.0984696319,
+            "longitude": -72.5832990807
+          }
+        },
+        "startDate": "1908",
+        "endDate": "1908"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "24",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "New Edisonia Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "510 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1005436867,
+            "longitude": -72.5867358575
+          }
+        },
+        "startDate": "1916",
+        "endDate": "1913"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "25",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Garden Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "510 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1005436867,
+            "longitude": -72.5867358575
+          }
+        },
+        "startDate": "1953",
+        "endDate": "1916"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/8284"
+      ]
+    },
+    {
+      "@id": "26",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Charles E. Schneider Moving Pictures",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "60 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1084149156,
+            "longitude": -72.6004089777
+          }
+        },
+        "startDate": "1908",
+        "endDate": "1908"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "27",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "William G. Cunningham Moving Pictures",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "60 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1084149156,
+            "longitude": -72.6004089777
+          }
+        },
+        "startDate": "1909",
+        "endDate": "1909"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "28",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "New England Amusement Company Moving Pictures",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "60 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1084149156,
+            "longitude": -72.6004089777
+          }
+        },
+        "startDate": "1911",
+        "endDate": "1910"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "29",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Novelty Motion Picture House",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "60 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1084149156,
+            "longitude": -72.6004089777
+          }
+        },
+        "startDate": "1915",
+        "endDate": "1912"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "30",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Amuse Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "820 State Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1117243227,
+            "longitude": -72.5642653739
+          }
+        },
+        "startDate": "1909",
+        "endDate": "1909"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "31",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Grand Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "205 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1592310841,
+            "longitude": -72.5005648387
+          }
+        },
+        "startDate": "1990",
+        "endDate": "1909"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/10489"
+      ]
+    },
+    {
+      "@id": "32",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ardel Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "518 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1004798107,
+            "longitude": -72.5866422632
+          }
+        },
+        "startDate": "1912",
+        "endDate": "1910"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "33",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gaiety Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "427 State Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1071753258,
+            "longitude": -72.5782500901
+          }
+        },
+        "startDate": "1916",
+        "endDate": "1911"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "34",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Globe Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "124 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1070610422,
+            "longitude": -72.5989840995
+          }
+        },
+        "startDate": "1925",
+        "endDate": "1911"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/filmindex191111film/page/n163/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "35",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Palace Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "41 Oak Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1590686004,
+            "longitude": -72.5030451563
+          }
+        },
+        "startDate": "1916",
+        "endDate": "1911"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/40333"
+      ]
+    },
+    {
+      "@id": "36",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Plaza Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "12 Taylor Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1044600916,
+            "longitude": -72.5935030494
+          }
+        },
+        "startDate": "1923",
+        "endDate": "1910"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "37",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "State Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "12 Taylor Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1044600916,
+            "longitude": -72.5935030494
+          }
+        },
+        "startDate": "1932",
+        "endDate": "1923"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ]
+    },
+    {
+      "@id": "38",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Broadway Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "101 Bridge Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1020394735,
+            "longitude": -72.5932268407
+          }
+        },
+        "startDate": "1952",
+        "endDate": "1913"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3720"
+      ]
+    },
+    {
+      "@id": "39",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Hudson Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "682 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.0969658659,
+            "longitude": -72.5824323898
+          }
+        },
+        "startDate": "1917",
+        "endDate": "1913"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "40",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rialto Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "682 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.0969658659,
+            "longitude": -72.5824323898
+          }
+        },
+        "startDate": "1918",
+        "endDate": "1917"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "41",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Liberty Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "682 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.0969658659,
+            "longitude": -72.5824323898
+          }
+        },
+        "startDate": "1919",
+        "endDate": "1918"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ]
+    },
+    {
+      "@id": "42",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Allah Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "682 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.0969658659,
+            "longitude": -72.5824323898
+          }
+        },
+        "startDate": "1922",
+        "endDate": "1919"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "43",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lyric Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "247 North Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1165821721,
+            "longitude": -72.6065745005
+          }
+        },
+        "startDate": "1916",
+        "endDate": "1913"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "44",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mirror Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "21 Wilbraham Road"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1108417409,
+            "longitude": -72.5643753445
+          }
+        },
+        "startDate": "1922",
+        "endDate": "1913"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "45",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Geisha Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "257 Bridge Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.103635724,
+            "longitude": -72.5913563755
+          }
+        },
+        "startDate": "1915",
+        "endDate": "1914"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://digitalarchives.sec.state.ma.us/uncategorised/IO_486ff5e6-db16-434e-a419-dbf59ffad48a/"
+      ]
+    },
+    {
+      "@id": "46",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lion Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "163 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1060957464,
+            "longitude": -72.5969379793
+          }
+        },
+        "startDate": "1916",
+        "endDate": "1914"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "47",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Reel Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "477 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1013466208,
+            "longitude": -72.5874618791
+          }
+        },
+        "startDate": "1916",
+        "endDate": "1914"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://archive.org/details/motionpicturenew82unse/page/n85/mode/2up?view=theater"
+      ]
+    },
+    {
+      "@id": "48",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Strand Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "24 Eastern Avenue"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1103419707,
+            "longitude": -72.5642250563
+          }
+        },
+        "startDate": "1953",
+        "endDate": "1916"
+      },
+      "citation": [
+        "https://link.gale.com/apps/doc/A133911455/LitRC?u=durh54357&sid=summon&xid=ec87c930"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/7792"
+      ]
+    },
+    {
+      "@id": "49",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Phillips Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "499 Sumner Avenue"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.0859911151,
+            "longitude": -72.5580737449
+          }
+        },
+        "startDate": "1963",
+        "endDate": "1915"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3722"
+      ]
+    },
+    {
+      "@id": "50",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cinema-X",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "499 Sumner Avenue"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.0859911151,
+            "longitude": -72.5580737449
+          }
+        },
+        "startDate": "1987",
+        "endDate": "1963"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3722"
+      ]
+    },
+    {
+      "@id": "51",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ten Eyck's Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "387 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.102484144,
+            "longitude": -72.5898099277
+          }
+        },
+        "startDate": "1918",
+        "endDate": "1917"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "52",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cleveland Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "41 Cleveland Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1218426474,
+            "longitude": -72.5863408134
+          }
+        },
+        "startDate": "1927",
+        "endDate": "1921"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/9786"
+      ]
+    },
+    {
+      "@id": "53",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Jefferson Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "179 North Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.114621454,
+            "longitude": -72.6057163723
+          }
+        },
+        "startDate": "1962",
+        "endDate": "1921"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3725"
+      ]
+    },
+    {
+      "@id": "54",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Pine Point Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "11 Boyer Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1252226238,
+            "longitude": -72.5349504286
+          }
+        },
+        "startDate": "1933",
+        "endDate": "1927"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ]
+    },
+    {
+      "@id": "55",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Liberty Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "739 Liberty Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1231598555,
+            "longitude": -72.584115261
+          }
+        },
+        "startDate": "1954",
+        "endDate": "1928"
+      },
+      "citation": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=utSpkqcAAAAJ&citation_for_view=utSpkqcAAAAJ:qjMakFHDy7sC"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3726"
+      ]
+    },
+    {
+      "@id": "56",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Franklin Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "341 Chestnut Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1108488494,
+            "longitude": -72.5946399489
+          }
+        },
+        "startDate": "1940",
+        "endDate": "1929"
+      },
+      "citation": [
+        "https://doi.org/10.2307/jj.28297686.13"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/70622"
+      ]
+    },
+    {
+      "@id": "57",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Paramount Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "1704 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1044642874,
+            "longitude": -72.5948816935
+          }
+        },
+        "startDate": "1939",
+        "endDate": "1929"
+      },
+      "citation": [
+        "https://doi.org/10.2307/j.ctv36xw32v.18"
+      ],
+      "sameAs": [
+        "https://afterthefinalcurtain.net/2017/10/27/paramount-theatre-springfield-ma/"
+      ]
+    },
+    {
+      "@id": "58",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rialto Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "892 Carew Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1278152296,
+            "longitude": -72.5816849068
+          }
+        },
+        "startDate": "1932",
+        "endDate": "1930"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "59",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Arcade Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "171 State Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1021540714,
+            "longitude": -72.5854210322
+          }
+        },
+        "startDate": "1971",
+        "endDate": "1931"
+      },
+      "citation": [
+        "https://www.tandfonline.com/doi/abs/10.1080/10714429809368568"
+      ],
+      "sameAs": [
+        "https://cinematreasures.org/theaters/3718"
+      ]
+    },
+    {
+      "@id": "60",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Parlor Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "99 Bridge Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1019834144,
+            "longitude": -72.5932999901
+          }
+        },
+        "startDate": "1897",
+        "endDate": "1894"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    },
+    {
+      "@id": "61",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Bijou Theatre",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "280 Main Street"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.1039076087,
+            "longitude": -72.5937669117
+          }
+        },
+        "startDate": "1909",
+        "endDate": "1907"
+      },
+      "citation": [
+        "Klenotic, Jeff. 2025. https://www.mappingmovies.com/springfield-venues/"
+      ]
+    }
+  ]
+}
