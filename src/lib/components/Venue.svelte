@@ -104,15 +104,19 @@
 
 			<div class="flex items-center">
 				<button
-					class="badge hover:bg-base-300 flex cursor-pointer items-center gap-2 font-mono transition-colors"
+					class="badge hover:bg-base-300 flex max-w-full cursor-pointer items-center gap-2 overflow-x-auto px-2 py-1 font-mono text-xs whitespace-nowrap transition-colors sm:px-3 sm:py-2 sm:text-sm"
+					style="word-break: break-all;"
 					onclick={() =>
 						copyToClipboard(
 							`${venue.location.location.geo!.latitude}, ${venue.location.location.geo!.longitude}`,
 							'coordinates'
 						)}
 					aria-label="Copy coordinates"
+					title={`${venue.location.location.geo!.latitude}, ${venue.location.location.geo!.longitude}`}
 				>
-					{venue.location.location.geo!.latitude}, {venue.location.location.geo!.longitude}
+					<span class="max-w-[8rem] truncate sm:max-w-none">
+						{venue.location.location.geo!.latitude}, {venue.location.location.geo!.longitude}
+					</span>
 					{#if copiedStates['coordinates']}
 						<Check size={14} class="text-success" />
 					{:else}
