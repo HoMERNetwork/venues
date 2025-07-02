@@ -163,28 +163,30 @@
 	</div>
 
 	<div class="mt-4">
-		<h3 class="flex items-center gap-2 text-lg font-semibold">
-			<Link2 size={20} /> External identifiers
-		</h3>
-		<ul class="list">
-			{#each venue.sameAs ?? [] as sameAs, index (index)}
-				<li class="list-row flex items-center justify-between gap-2">
-					<a href={sameAs} class="link link-primary" target="_blank">{sameAs}</a>
-					<div class="flex items-center gap-1">
-						<button
-							class="btn btn-sm btn-ghost"
-							onclick={() => copyToClipboard(sameAs, `sameAs-${index}`)}
-							title="Copy to clipboard"
-						>
-							{#if copiedStates[`sameAs-${index}`]}
-								<Check size={16} class="text-info" />
-							{:else}
-								<Copy size={16} />
-							{/if}
-						</button>
-					</div>
-				</li>
-			{/each}
-		</ul>
+		{#if venue.sameAs && venue.sameAs.length > 0}
+			<h3 class="flex items-center gap-2 text-lg font-semibold">
+				<Link2 size={20} /> External identifiers
+			</h3>
+			<ul class="list">
+				{#each venue.sameAs ?? [] as sameAs, index (index)}
+					<li class="list-row flex items-center justify-between gap-2">
+						<a href={sameAs} class="link link-primary" target="_blank">{sameAs}</a>
+						<div class="flex items-center gap-1">
+							<button
+								class="btn btn-sm btn-ghost"
+								onclick={() => copyToClipboard(sameAs, `sameAs-${index}`)}
+								title="Copy to clipboard"
+							>
+								{#if copiedStates[`sameAs-${index}`]}
+									<Check size={16} class="text-info" />
+								{:else}
+									<Copy size={16} />
+								{/if}
+							</button>
+						</div>
+					</li>
+				{/each}
+			</ul>
+		{/if}
 	</div>
 </div>
