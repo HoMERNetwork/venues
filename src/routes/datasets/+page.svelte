@@ -24,12 +24,33 @@
 </script>
 
 <div class="card bg-base-100 h-full">
-	<div class="card-body flex h-full flex-col p-4 pb-0">
-		<div class="flex-none px-4">
+	<div class="card-body p-4">
+		<div class="px-4">
 			<h2 class="card-title text-2xl font-semibold">Datasets</h2>
 			<p class="text-base-content/70 mt-2">Available datasets used in this application</p>
 		</div>
-		<div class="mt-4 flex-grow overflow-y-auto p-4">
+
+		<div class="mx-4 mt-4">
+			<div
+				class="alert bg-warning bg-opacity-20 border-warning text-warning-content flex max-w-4xl items-start gap-2 rounded-lg border-2 p-3 text-xs sm:text-sm"
+			>
+				<Info size={18} class="mt-0.5 flex-shrink-0" />
+				<div>
+					<strong class="mb-1 block">Dataset Information</strong>
+					<p>
+						The venue locations on this website are derived from comprehensive researcher datasets.
+						While efforts are made to accurately present this information, minor inconsistencies may
+						occasionally arise during the data conversion process.
+						<br /><br />
+						For the most precise and authoritative information, consult the original source data or citations
+						that are provided. And when using these datasets, always provide proper attribution to the
+						original data creators.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="mt-4 p-4">
 			{#if data.error}
 				<div class="alert alert-error">
 					<XCircle class="h-6 w-6 shrink-0 stroke-current" />
