@@ -32,7 +32,7 @@
 
 		<div class="mx-4 mt-4">
 			<div
-				class="alert bg-warning bg-opacity-20 border-warning text-warning-content flex max-w-4xl items-start gap-2 rounded-lg border-2 p-3 text-xs sm:text-sm"
+				class="alert bg-warning bg-opacity-20 text-warning-content flex max-w-4xl items-start gap-2 rounded-lg p-3 text-xs sm:text-sm"
 			>
 				<Info size={18} class="mt-0.5 flex-shrink-0" />
 				<div>

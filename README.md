@@ -1,6 +1,6 @@
 # HoMER Venue Research Index
 
-The HoMER Venue Research Index is a demo web application that lists venues (predominantly cinema related) from various datasets made by HoMERites (part of the HoMER Network, https://homernetwork.org/). 
+The HoMER Venue Research Index is a demo web application that lists venues (predominantly cinema related) from various datasets made by HoMERites (part of the HoMER Network, https://homernetwork.org/).
 
 The goal of this application is to provide a central place for researchers to find and share research output (articles, books, websites, datasets, etc.) in which these venues are discussed. At the same time, it serves as a demonstration of the use of the HoMER Vocabulary of Moviegoing, a shared vocabulary for cinema research, promoting the use of shared vocabularies in cinema research.
 
@@ -8,7 +8,7 @@ The website was presented as part of a HoMER Vocabulary Workshop at the HoMER An
 
 ## Contribute venue data
 
-1. Start with a copy of the template file located at `data/template.tsv`
+1. Start with a copy of the template file located at `static/template.tsv`
 2. Fill in the required information for each venue
 3. Save your completed file as `your-dataset-name.tsv` in the `static` directory, or send it to us for inclusion. You can also open an issue and attach your file there. Please provide metadata for your set of venues. See the section below for details on required fields.
 4. In case you want to make a PR to the repository, please also generate a JSON-LD file from your TSV file. See the section below for details on how to do this.

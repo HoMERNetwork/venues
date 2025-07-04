@@ -9,7 +9,7 @@
 					</p>
 				</div>
 
-				<div class="card from-base-200/50 to-base-300/30 border-base-300 border bg-gradient-to-br">
+				<div class="card from-base-200/50 to-base-300/30 bg-gradient-to-br">
 					<div class="card-body">
 						<div class="flex items-start gap-6">
 							<div class="flex-grow">
@@ -52,7 +52,7 @@
 					</div>
 				</div>
 
-				<div class="card from-neutral/5 to-base-200/50 border-base-300 border bg-gradient-to-br">
+				<div class="card from-neutral/5 to-base-200/50 bg-gradient-to-br">
 					<div class="card-body">
 						<div class="flex flex-col justify-between gap-6 sm:flex-row sm:items-center">
 							<div class="flex items-start gap-4">
