@@ -49,7 +49,7 @@ const convertToGeoJson = (data: Venue[]) => {
 
 		const startYear = venue.location?.startDate
 			? new Date(venue.location.startDate).getFullYear()
-			: null;
+			: 1895;
 		const endYear = venue.location?.endDate
 			? new Date(venue.location.endDate).getFullYear()
 			: new Date().getFullYear();

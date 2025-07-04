@@ -1,6 +1,6 @@
 <svelte:options immutable={false} />
 
-<script>
+<script lang="ts">
 	import RangeSlider from 'svelte-range-slider-pips';
 
 	export let minimumValue;
@@ -10,16 +10,37 @@
 
 	let values = [minimumFilterValue, maximumFilterValue];
 
-	$: minimumFilterValue = values[0];
-	$: maximumFilterValue = values[1];
+	const debounce = (callback: Function, wait = 50) => {
+		let timeout: ReturnType<typeof setTimeout> | null = null;
+
+		return (...args: any[]) => {
+			if (timeout !== null) {
+				clearTimeout(timeout);
+			}
+			timeout = setTimeout(() => callback(...args), wait);
+		};
+	};
+
+	const updateFilterValues = (newValues: number[]) => {
+		minimumFilterValue = newValues[0];
+		maximumFilterValue = newValues[1];
+	};
+
+	const debouncedUpdate = debounce(updateFilterValues, 100);
+
+	$: if (values) {
+		debouncedUpdate(values);
+	}
 </script>
 
-<div class="card bg-base-100 z-100 m-1 w-full shadow sm:m-2 md:max-w-sm">
-	<div class="card-body p-2 sm:p-4 md:p-6">
-		<h2 class="card-title text-xs sm:text-sm md:text-lg">Timeline</h2>
-		<p class="text-xs sm:text-sm md:text-base">Filter the data by selecting a time range.</p>
+<div class="card bg-base-100 z-100 m-1 w-full shadow sm:m-2 md:max-w-sm lg:max-w-md xl:max-w-lg">
+	<div class="card-body p-2 sm:p-3 md:p-4 lg:p-5">
+		<h2 class="card-title text-xs sm:text-sm md:text-base lg:text-lg">Timeline</h2>
+		<p class="text-base-content/70 text-xs sm:text-sm md:text-sm lg:text-base">
+			Filter the data by selecting a time range.
+		</p>
 
-		<div class="mt-0 w-full px-0 sm:mt-1 md:mt-2 md:px-2">
+		<div class="mt-2 w-full px-1 sm:mt-3 sm:px-2 md:mt-4 md:px-2 lg:px-3">
 			<RangeSlider
 				range
 				float
@@ -93,18 +114,54 @@
 	}
 
 	:global(.rangeSlider) {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
+		margin: 0.5rem 0;
+	}
+
+	@media (min-width: 480px) {
+		:global(.rangeSlider) {
+			font-size: 0.6rem;
+			margin: 0.75rem 0;
+		}
 	}
 
 	@media (min-width: 640px) {
 		:global(.rangeSlider) {
-			font-size: 0.8rem;
+			font-size: 0.7rem;
+			margin: 1rem 0;
 		}
 	}
 
 	@media (min-width: 768px) {
 		:global(.rangeSlider) {
+			font-size: 0.8rem;
+			margin: 1.25rem 0;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		:global(.rangeSlider) {
+			font-size: 0.9rem;
+			margin: 1.5rem 0;
+		}
+	}
+
+	@media (min-width: 1280px) {
+		:global(.rangeSlider) {
 			font-size: 1rem;
+			margin: 1.5rem 0;
+		}
+	}
+
+	/* Improve touch targets on mobile */
+	@media (max-width: 767px) {
+		:global(.rangeSlider .rangeHandle) {
+			width: 1.5rem;
+			height: 1.5rem;
+		}
+
+		:global(.rangeSlider .rangePip) {
+			font-size: 0.5rem;
 		}
 	}
 </style>
