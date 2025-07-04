@@ -2,9 +2,9 @@
 	<div class="card-body flex h-full flex-col p-0">
 		<div class="flex-grow overflow-y-auto p-6 sm:p-8">
 			<div class="mx-auto max-w-4xl space-y-8">
-				<div class="space-y-4 text-center">
-					<h1 class="text-3xl font-bold md:text-4xl">About</h1>
-					<p class="text-base-content/70 text-lg">
+				<div class="space-y-3 text-center sm:space-y-4">
+					<h1 class="text-2xl font-bold sm:text-3xl lg:text-4xl">About</h1>
+					<p class="text-base-content/70 text-base sm:text-lg">
 						Connecting cinema research through shared vocabularies
 					</p>
 				</div>
