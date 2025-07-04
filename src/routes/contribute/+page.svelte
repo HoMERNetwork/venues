@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import {
 		Upload,
 		FileText,
@@ -136,15 +137,15 @@
 
 						<div class="mb-4 space-y-2">
 							<div class="flex flex-wrap gap-2">
-								<a href="/template.tsv" class="btn btn-xs btn-outline gap-1" download>
+								<a href="{base}/template.tsv" class="btn btn-xs btn-outline gap-1" download>
 									<FileText class="h-3 w-3" />
 									Download template (TSV)
 								</a>
-								<a href="/template.xltx" class="btn btn-xs btn-outline gap-1" download>
+								<a href="{base}/template.xltx" class="btn btn-xs btn-outline gap-1" download>
 									<FileText class="h-3 w-3" />
 									Download template (Excel Template)
 								</a>
-								<a href="/example.tsv" class="btn btn-xs btn-outline gap-1" download>
+								<a href="{base}/example.tsv" class="btn btn-xs btn-outline gap-1" download>
 									<FileSearch class="h-3 w-3" />
 									Download example (TSV)
 								</a>

@@ -79,7 +79,7 @@ This website is built using SvelteKit. To contribute to the development of the w
 1. Clone/fork the repository
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm run dev`
-4. Make your changes and test them locally: `npm run preview`
+4. Make your changes and test them locally: `npm run build && npm run preview`
 5. Commit your changes and push them to the repository
 6. Create a pull request
 
