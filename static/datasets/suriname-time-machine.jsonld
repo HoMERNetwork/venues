@@ -17,7 +17,7 @@
       "contentUrl": "suriname-time-machine.jsonld"
     }
   ],
-  "dateModified": "2025-07-02",
+  "dateModified": "2025-07-08",
   "isBasedOn": "suriname-time-machine.tsv",
   "hasPart": [
     {
@@ -54,11 +54,15 @@
             "longitude": -55.1579826169601
           }
         },
-        "startDate": "1913-01-01"
+        "startDate": "1913-01-01",
+        "endDate": "1995"
       },
       "description": "Voortzetting Cinema Pathé Frères",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001704"
       ]
     },
     {
@@ -68,8 +72,12 @@
       "name": "Kino Scheurlen",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
-          "name": "zaal"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
         },
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
@@ -92,10 +100,14 @@
           }
         },
         "startDate": "1912-08-01",
-        "endDate": "1924-12-31"
+        "endDate": "1924"
       },
+      "description": " ",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001701"
       ]
     },
     {
@@ -138,6 +150,9 @@
       "description": "De Cinéma Pathé Frères was gevestigd in de Loge Concordia. Bij droog weer werden ook buiten voorstellingen gegeven. In mei 1913 verhuisde de exploitatie naar het nieuw gebouwde Bellevue theater aan de Dominéstraat",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001702"
       ]
     },
     {
@@ -174,11 +189,15 @@
             "longitude": -55.1598579902848
           }
         },
-        "startDate": "1912-11-07"
+        "startDate": "1912-11-07",
+        "endDate": "1916"
       },
       "description": "De Hollandsch-Amerikaansche bioscoop opereerde in Theater Thalia",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001703"
       ]
     },
     {
@@ -216,11 +235,14 @@
           }
         },
         "startDate": "1931-01-24",
-        "endDate": "1937-12-31"
+        "endDate": "1937"
       },
       "description": "Opgevolgd door nieuwbouw Luxor in 1937. Mogelijk voortzetting van De Kroon na 1929.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001705"
       ]
     },
     {
@@ -257,11 +279,15 @@
             "longitude": -55.1541620546859
           }
         },
-        "startDate": "1898-01-01"
+        "startDate": "1898-01-01",
+        "endDate": "1899"
       },
       "description": "Hier werden in 1898 'Photografie van levende beelden' vertoond op zaterdag- en zondagavonden",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001744"
       ]
     },
     {
@@ -299,11 +325,14 @@
           }
         },
         "startDate": "1937-01-01",
-        "endDate": "2002-12-31"
+        "endDate": "2002"
       },
       "description": "Nieuwbouw die het voormalige Cinema Elize verving in 1937.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001773"
       ]
     },
     {
@@ -341,11 +370,14 @@
           }
         },
         "startDate": "1935-02-01",
-        "endDate": "1950-12-31"
+        "endDate": "1950"
       },
       "description": "Royal opereerde in het Thalia theater. Laatste advertentie gevonden in 1950, vermoedelijk ergens in dat jaar gesloten.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001707"
       ]
     },
     {
@@ -355,12 +387,8 @@
       "name": "Sociable Hall",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
-          "name": "Single screen cinema"
-        },
-        {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
-          "name": "Cinema"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+          "name": "zaal"
         },
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
@@ -375,9 +403,15 @@
             "@type": "PostalAddress",
             "addressLocality": "Paramaribo",
             "streetAddress": "Gravenstraat"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.83112702790263,
+            "longitude": -55.1589423587517
           }
         },
-        "startDate": "1898-01-01"
+        "startDate": "1898-01-01",
+        "endDate": "1898"
       },
       "description": "In deze zaal werden vanaf 1898 diverse filmvoorstellingen georganiseerd",
       "citation": [
@@ -419,10 +453,13 @@
           }
         },
         "startDate": "1948-01-01",
-        "endDate": "1998-12-31"
+        "endDate": "1998"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001754"
       ]
     },
     {
@@ -432,16 +469,12 @@
       "name": "Kong Ngie Tong",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
-          "name": "Single screen cinema"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+          "name": "Verenigingsgebouw"
         },
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
-          "name": "Cinema"
-        },
-        {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
-          "name": "Public venue"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Club_house.html",
+          "name": "Club house"
         }
       ],
       "location": {
@@ -500,10 +533,13 @@
           }
         },
         "startDate": "1957-12-12",
-        "endDate": "1999-12-31"
+        "endDate": "1999"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001749"
       ]
     },
     {
@@ -540,11 +576,15 @@
             "longitude": -55.165084907054
           }
         },
-        "startDate": "1958-04-10"
+        "startDate": "1958-04-10",
+        "endDate": "1990"
       },
       "description": "Ook wel geschreven als \"Jassodra\". Genoemd naar Mevr. Jasodra Manichand, echtgenote van de eigenaar J.R. Manichand; Cinemascope",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001709"
       ]
     },
     {
@@ -554,8 +594,12 @@
       "name": "Empire",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
-          "name": "Verenigingsgebouw"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
         },
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
@@ -577,10 +621,14 @@
             "longitude": -55.1646219088197
           }
         },
-        "startDate": "1964-01-01"
+        "startDate": "1964-01-01",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001715"
       ]
     },
     {
@@ -617,11 +665,15 @@
             "longitude": -55.167273240786
           }
         },
-        "startDate": "1972-01-01"
+        "startDate": "1972-01-01",
+        "endDate": "1990"
       },
       "description": "70mm projector; vermoedelijk geopend sept. 1972",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001721"
       ]
     },
     {
@@ -658,11 +710,15 @@
             "longitude": -55.1463383078867
           }
         },
-        "startDate": "1975-06-13"
+        "startDate": "1975-06-13",
+        "endDate": "1990"
       },
-      "description": "Specialiseerde in Indonesische films.\nGekocht voor f310.000 in 1975.",
+      "description": "Specialiseerde in Indonesische films. Gekocht voor f310.000 in 1975.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001743"
       ]
     },
     {
@@ -700,10 +756,13 @@
           }
         },
         "startDate": "1962-12-07",
-        "endDate": "1975-12-31"
+        "endDate": "1975"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001719"
       ]
     },
     {
@@ -714,11 +773,15 @@
       "additionalType": [
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
-          "name": "Cinema"
+          "name": "Single screen cinema"
         },
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
-          "name": "military cinema"
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+          "name": "Public venue"
         }
       ],
       "location": {
@@ -736,11 +799,15 @@
             "longitude": -55.1748971798353
           }
         },
-        "startDate": "1978-02-17"
+        "startDate": "1978-02-17",
+        "endDate": "1990"
       },
       "description": "Vrije Stem schrijft op 18-2-1978: 'De naam \"Liberty\" is door de heer Tewari bewust gekozen om de vrijheid te symboliseren van het Surinaamse volk. Hij zegt middels educatieve en culturele films zijn bijdrage te zullen leveren aan de vorming van de Surinaamse burgers.'",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001767"
       ]
     },
     {
@@ -777,10 +844,14 @@
             "longitude": -55.1774224460943
           }
         },
-        "startDate": "1958-05-24"
+        "startDate": "1958-05-24",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001720"
       ]
     },
     {
@@ -790,8 +861,8 @@
       "name": "TBL Cinemas",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
-          "name": "Single screen cinema"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multiplex",
+          "name": "Multiplex"
         },
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
@@ -821,6 +892,9 @@
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001733"
       ]
     },
     {
@@ -857,11 +931,15 @@
             "longitude": -55.1566030900556
           }
         },
-        "startDate": "1924-12-23"
+        "startDate": "1924-12-23",
+        "endDate": "1940"
       },
       "description": "Kino Scheurlen heropent als Theater Victoria na overname door eigenaar Bellevue",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001706"
       ]
     },
     {
@@ -891,13 +969,21 @@
             "@type": "PostalAddress",
             "addressLocality": "Paramaribo",
             "streetAddress": "Koningstraat"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.81828693231625,
+            "longitude": -55.1736931356386
           }
         },
         "startDate": "1928-01-01",
-        "endDate": "1929-12-31"
+        "endDate": "1929"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001776"
       ]
     },
     {
@@ -935,11 +1021,14 @@
           }
         },
         "startDate": "1920-07-24",
-        "endDate": "1923-12-31"
+        "endDate": "1923"
       },
       "description": "De Leliebioscoop werd geëxploiteerd in het Thalia theater",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001748"
       ]
     },
     {
@@ -969,12 +1058,21 @@
             "@type": "PostalAddress",
             "addressLocality": "Groningen (Saramacca)",
             "streetAddress": "onbekend"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.79324468133378,
+            "longitude": -55.4748314100541
           }
         },
-        "startDate": "1961-02-18"
+        "startDate": "1961-02-18",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001732"
       ]
     },
     {
@@ -1004,13 +1102,22 @@
             "@type": "PostalAddress",
             "addressLocality": "Lelydorp",
             "streetAddress": "Pad van Wanica"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.70033725932603,
+            "longitude": -55.2170074545056
           }
         },
-        "startDate": "1950-01-01"
+        "startDate": "1950-01-01",
+        "endDate": "1990"
       },
       "description": "Kino Leter of Theater Leter; bij aanvraag vergunning wordt gesproken van 'Spoorbaan' als adres. Precieze opening niet bekend, aanvraag vergunning in 1950 in de krant.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001762"
       ]
     },
     {
@@ -1047,10 +1154,14 @@
             "longitude": -55.1297402988766
           }
         },
-        "startDate": "1959-11-28"
+        "startDate": "1959-11-28",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001750"
       ]
     },
     {
@@ -1087,10 +1198,14 @@
             "longitude": -54.4019805137515
           }
         },
-        "startDate": "1955-03-26"
+        "startDate": "1955-03-26",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001779"
       ]
     },
     {
@@ -1120,12 +1235,21 @@
             "@type": "PostalAddress",
             "addressLocality": "Paranam",
             "streetAddress": "onbekend"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.60726821086591,
+            "longitude": -55.0906161321097
           }
         },
-        "startDate": "1946-01-25"
+        "startDate": "1946-01-25",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001739"
       ]
     },
     {
@@ -1155,14 +1279,22 @@
             "@type": "PostalAddress",
             "addressLocality": "Nieuw Nickerie",
             "streetAddress": "Voorstraat"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.94689827382612,
+            "longitude": -56.991985237788
           }
         },
         "startDate": "1924-10-01",
-        "endDate": "1934-12-31"
+        "endDate": "1934"
       },
       "description": "Sinds 1911 vertoonde Sital Sing films, vanaf 1924 met 'dynamo' van Thalia in kino Sital Sing aan de Voorstraat. Openingsfilm in 1924: Tarzan. Vanaf 1934 overgenomen en voortgezet onder de naam Theater Nickerie",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001740"
       ]
     },
     {
@@ -1192,13 +1324,22 @@
             "@type": "PostalAddress",
             "addressLocality": "Nieuw Nickerie",
             "streetAddress": "Voorstraat"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.94689827382612,
+            "longitude": -56.991985237788
           }
         },
-        "startDate": "1934-01-01"
+        "startDate": "1934-01-01",
+        "endDate": "1940"
       },
       "description": "Voorheen Sital Sing en op zeker moment gewijzigd in Volkstheater en exploitatie overgenomen door Bellevue, Paramaribo. Niet te verwarren met het latere Volkstheater op de Achterstraat...",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001769"
       ]
     },
     {
@@ -1228,14 +1369,22 @@
             "@type": "PostalAddress",
             "addressLocality": "Nieuw Nickerie",
             "streetAddress": "Achterstraat"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.94320061746583,
+            "longitude": -56.9918410880666
           }
         },
         "startDate": "1929-08-01",
-        "endDate": "1950-12-31"
+        "endDate": "1950"
       },
       "description": "Bij de opening in 1929 bleef men dansen tot 3 uur in de nacht. Eerste geluidsfilm op 1 september 1935. Eind 1935 is de exploitatie in handen gekomen van de directie van Bellevue, Paramaribo. In de jaren '40 is het theater actief, want wordt genoemd in De Nickeriaan. Met de opening van concurrent Juliana krijgt het theater een opknapbeurt en heropent het in de loop van 1950 als Het Volkstheater",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001708"
       ]
     },
     {
@@ -1272,10 +1421,14 @@
             "longitude": -56.9896963407799
           }
         },
-        "startDate": "1949-11-05"
+        "startDate": "1949-11-05",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001765"
       ]
     },
     {
@@ -1305,13 +1458,22 @@
             "@type": "PostalAddress",
             "addressLocality": "Nieuw Nickerie",
             "streetAddress": "Achterstraat"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.94320061746583,
+            "longitude": -56.9918410880666
           }
         },
-        "startDate": "1950-07-01"
+        "startDate": "1950-07-01",
+        "endDate": "1990"
       },
       "description": "Gaiety theater heropende na verbouwing als Volkstheater in 1950. Afgebrand in mei 1961 en heropend in nieuw gebouw in augustus 1962.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001780"
       ]
     },
     {
@@ -1348,11 +1510,15 @@
             "longitude": -56.9947922272406
           }
         },
-        "startDate": "1962-09-01"
+        "startDate": "1962-09-01",
+        "endDate": "1990"
       },
       "description": "Afrikaanse dansen bij opening verrassen het Hindoestaanse publiek, aldus verslag opening in De Nickeriaan",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001747"
       ]
     },
     {
@@ -1381,12 +1547,21 @@
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Corantijnpolder"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.94414075339182,
+            "longitude": -57.0307960916849
           }
         },
-        "startDate": "1952-10-01"
+        "startDate": "1952-10-01",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001712"
       ]
     },
     {
@@ -1415,12 +1590,21 @@
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Boonackerpolder"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.8986700843347,
+            "longitude": -56.9190432828903
           }
         },
-        "startDate": "1951-01-01"
+        "startDate": "1951-01-01",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001734"
       ]
     },
     {
@@ -1430,12 +1614,8 @@
       "name": "Masanga",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
-          "name": "Single screen cinema"
-        },
-        {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
-          "name": "Cinema"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+          "name": "Ontspanningszaal"
         },
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
@@ -1449,8 +1629,14 @@
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Wageningen"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.76972401799242,
+            "longitude": -56.6964879061443
           }
-        }
+        },
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
@@ -1490,11 +1676,15 @@
             "longitude": -55.1722170952166
           }
         },
-        "startDate": "1969-09-08"
+        "startDate": "1969-09-08",
+        "endDate": "1990"
       },
       "description": "Inmiddels een wijk in Paramaribo-Zuid maar in de jaren '70 nog een aparte plaats 'Bethesda'. Bood plaats aan 'enkele honderden' toeschouwers.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001725"
       ]
     },
     {
@@ -1524,12 +1714,21 @@
             "@type": "PostalAddress",
             "addressLocality": "Groningen (Saramacca)",
             "streetAddress": "onbekend"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.79324468133378,
+            "longitude": -55.4748314100541
           }
-        }
+        },
+        "endDate": "1990"
       },
       "description": "Opvolger van Chung Fa.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001713"
       ]
     },
     {
@@ -1559,13 +1758,22 @@
             "@type": "PostalAddress",
             "addressLocality": "Lelydorp",
             "streetAddress": "Verlengde Pad van Wanica"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.69779400550022,
+            "longitude": -55.2205515946738
           }
         },
-        "startDate": "1950-01-01"
+        "startDate": "1950-01-01",
+        "endDate": "1990"
       },
       "description": "Exacte openingsdatum is niet bekend, alleen vergunningsaanvraag in januari 1950",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001756"
       ]
     },
     {
@@ -1595,13 +1803,22 @@
             "@type": "PostalAddress",
             "addressLocality": "Moengo",
             "streetAddress": "Onbekend"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.60872578546511,
+            "longitude": -54.3992372894679
           }
         },
-        "startDate": "1929-08-08"
+        "startDate": "1929-08-08",
+        "endDate": "1940"
       },
       "description": "Dit betreft het oude houten Bellevue theater uit Paramaribo dat opnieuw is opgebouwd in Moengo. Precieze locatie is niet bekend. Bij de opening was Dhr. De Munninck aanwezig, directeur van de Surinaamse Bauxiet Maatschappij; kennelijk is het theater naar hem vernoemd. In de volksmond werd het al snel verbasterd tot 'Money Come' theater... Namen die vermoedelijk betrokken waren bij de exploitatie: Jie Sam Foek en Burside.",
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001755"
       ]
     },
     {
@@ -1609,6 +1826,50 @@
       "@context": "https://schema.org/",
       "@type": "Place",
       "name": "[Amerikaanse bioscoop]",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "military cinema"
+        },
+        {
+          "@id": "aanmaken"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Zanderij",
+            "streetAddress": "Onbekend"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.463346696212,
+            "longitude": -55.2102813673213
+          }
+        },
+        "startDate": "1942-11-01",
+        "endDate": "1945"
+      },
+      "description": "Kennelijk runde het Amerikaanse leger een bioscoop op Zanderij.",
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001728"
+      ]
+    },
+    {
+      "@id": "cc6438203880fce",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metro",
       "additionalType": [
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
@@ -1629,50 +1890,23 @@
           "@type": "Place",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Zanderij",
-            "streetAddress": "Onbekend"
-          }
-        },
-        "startDate": "1942-11-01"
-      },
-      "description": "Kennelijk runde het Amerikaanse leger een bioscoop op Zanderij.",
-      "citation": [
-        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
-      ]
-    },
-    {
-      "@id": "cc6438203880fce",
-      "@context": "https://schema.org/",
-      "@type": "Place",
-      "name": "Metro",
-      "additionalType": [
-        {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Multiplex",
-          "name": "Multiplex"
-        },
-        {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
-          "name": "Cinema"
-        },
-        {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
-          "name": "Public venue"
-        }
-      ],
-      "location": {
-        "@type": "Role",
-        "location": {
-          "@type": "Place",
-          "address": {
-            "@type": "PostalAddress",
             "addressLocality": "Paramaribo",
             "streetAddress": "Ergens in Uitvlucht"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.82411359657383,
+            "longitude": -55.2087739807812
           }
         },
-        "startDate": "1974-01-18"
+        "startDate": "1974-01-18",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001711"
       ]
     },
     {
@@ -1682,8 +1916,12 @@
       "name": "Taj Mahal",
       "additionalType": [
         {
-          "@id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
-          "name": "Ontspanningszaal"
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+          "name": "Single screen cinema"
+        },
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+          "name": "Cinema"
         },
         {
           "@id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
@@ -1705,10 +1943,14 @@
             "longitude": -55.2159687830775
           }
         },
-        "startDate": "1969-04-23"
+        "startDate": "1969-04-23",
+        "endDate": "1990"
       },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001716"
       ]
     },
     {
@@ -1738,11 +1980,316 @@
             "@type": "PostalAddress",
             "addressLocality": "Wanica",
             "streetAddress": "Leiding 10A"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.833,
+            "longitude": -552.652
           }
         },
-        "startDate": "1960-01-01"
+        "startDate": "1960-01-01",
+        "endDate": "1990"
       },
       "description": "Vroegste vermelding gevonden in augustus 1969, maar niet bekend wanneer geopend (of gesloten)",
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ],
+      "sameAs": [
+        "http://cinemacontext.nl/id/B001758"
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sita",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Moengo (Wonoredjo)",
+            "streetAddress": "Walter Bursideweg"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.617,
+            "longitude": -54.391
+          }
+        },
+        "startDate": "1960",
+        "endDate": "1990"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Koewarasan",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Welgedacht",
+            "streetAddress": "Wayamoeweg"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.756,
+            "longitude": -5.521
+          }
+        },
+        "startDate": "1960",
+        "endDate": "1990"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Minimin [?]",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Meerzorg",
+            "streetAddress": "Tamanredjo"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.785,
+            "longitude": -5.502
+          }
+        },
+        "startDate": "1978",
+        "endDate": "1990"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "[unknown]",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Commewijne",
+            "streetAddress": "Alliance"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 58.983,
+            "longitude": -5.487
+          }
+        },
+        "startDate": "1960",
+        "endDate": "1980"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Apollo",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Albina",
+            "streetAddress": "Wilhelminastraat"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.501,
+            "longitude": -5.405
+          }
+        },
+        "startDate": "1960",
+        "endDate": "1990"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Chandarlekha",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Wanica",
+            "streetAddress": "Peperhol"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.834,
+            "longitude": -55.613
+          }
+        },
+        "startDate": "1960",
+        "endDate": "1990"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Djiewan / Jivan",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Commewijne",
+            "streetAddress": "Margrita"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 589.244,
+            "longitude": -55.037
+          }
+        },
+        "startDate": "1940",
+        "endDate": "1990"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Savitri",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Wanica",
+            "streetAddress": "Pad van Wanica"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 575.029,
+            "longitude": -55.21
+          }
+        },
+        "startDate": "8/14/1959",
+        "endDate": "1990"
+      },
+      "citation": [
+        "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
+      ]
+    },
+    {
+      "@id": "",
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Theater Domburg",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Domburg"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 5.689,
+            "longitude": -5.508
+          }
+        },
+        "startDate": "1960",
+        "endDate": "1990"
+      },
       "citation": [
         "Van Oort, T. (2025). Asian Film Exhibition in Suriname (1930s—1970s). In Panel 24: Beyond Hollywood: Resistant Experiences of Cinema-going in the Caribbean [Conference session]. HoMER 2025 Conference: Cinema and Conflict, Galatasaray University, Istanbul, Turkey."
       ]
