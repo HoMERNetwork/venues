@@ -138,6 +138,28 @@
 			],
 			"dateModified": "2025-07-08",
 			"isBasedOn": "adana-sinemasi.tsv"
+		},
+		{
+			"@id": "eca-cinema-data",
+			"@type": "Dataset",
+			"name": "ECA Cinema Data",
+			"description": "European Cinema Audiences data.",
+			"citation": "European Cinema Audiences. 2025. https://www.europeancinemaaudiences.org/",
+			"url": "https://www.europeancinemaaudiences.org/",
+			"distribution": [
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "text/tab-separated-values",
+					"contentUrl": "eca-cinema-data.tsv"
+				},
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "application/ld+json",
+					"contentUrl": "eca-cinema-data.jsonld"
+				}
+			],
+			"dateModified": "2025-07-15",
+			"isBasedOn": "eca-cinema-data.tsv"
 		}
 	]
 }
