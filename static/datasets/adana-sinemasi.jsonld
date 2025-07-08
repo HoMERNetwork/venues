@@ -1,0 +1,3356 @@
+{
+  "@id": "adana-sinemasi",
+  "@type": "Dataset",
+  "name": "Adana Sineması",
+  "description": "A database of Adana Sineması.",
+  "citation": "Adana Sinema Heritage. https://www.cinemap.org/.",
+  "url": "https://www.cinemap.org/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/tab-separated-values",
+      "contentUrl": "adana-sinemasi.tsv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "adana-sinemasi.jsonld"
+    }
+  ],
+  "dateModified": "2025-07-08",
+  "isBasedOn": "adana-sinemasi.tsv",
+  "hasPart": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Adana Halkevi",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.993124877288,
+            "longitude": 35.3256830789356
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/001"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Aile ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9815100090019,
+            "longitude": 35.3308823187689
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/002"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Akıncılar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0003326609701,
+            "longitude": 35.3634957660719
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/003"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Akkapı",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9631887764584,
+            "longitude": 35.305598830687
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/004"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Alemdar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9931098282492,
+            "longitude": 35.3422603127556
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/005"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Alim",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0113811244272,
+            "longitude": 35.3060017468289
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/006"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Amfi-Tiyatro Sineması",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0568801739073,
+            "longitude": 35.3590819455878
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/007"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9934067177794,
+            "longitude": 35.3221732494509
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/008"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Arı II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0001062066436,
+            "longitude": 35.3274250147001
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/009"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Arıplex / Arı I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9949729971095,
+            "longitude": 35.3253436205047
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/010"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Arzu",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9847141441735,
+            "longitude": 35.3264540550383
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/011"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Arzu II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9772515262735,
+            "longitude": 35.3307938255806
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/012"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Asri II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.995011725874,
+            "longitude": 35.3248259541647
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/013"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Atlas",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9837415459346,
+            "longitude": 35.3251451370392
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/014"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Avşar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9907517192062,
+            "longitude": 35.3412276622909
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/015"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Bağdat",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9805187953679,
+            "longitude": 35.3185675491976
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/016"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Bahar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0035482277027,
+            "longitude": 35.3219157573837
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/017"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Barkal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9951752628326,
+            "longitude": 35.2876707395195
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/018"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Baykal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0077580369832,
+            "longitude": 35.3238469478753
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/019"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Bulvar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9918963493279,
+            "longitude": 35.3233480569991
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/020"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cemalpaşa",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0100209544464,
+            "longitude": 35.3238925454284
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/021"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cinema Pink Adana",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9939194972768,
+            "longitude": 35.3062048770688
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/022"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cinemaximum",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0190868667931,
+            "longitude": 35.241975253906
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/023"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Cinens",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9955064338197,
+            "longitude": 35.3014183700929
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/024"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Çamlı",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9925676294303,
+            "longitude": 35.3258478757983
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/025"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Çelik",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9827646342873,
+            "longitude": 35.3243994829329
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/026"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Çiçek",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9874037857143,
+            "longitude": 35.3122249362149
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/027"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Çukurova Üniversitesi Cep Sineması",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0579894057094,
+            "longitude": 35.3614208318494
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/028"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Denizli",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9997324967058,
+            "longitude": 35.3029700597426
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/029"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Derya",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9830256234216,
+            "longitude": 35.2997970064778
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/030"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Dünya / Yıldız I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0028211125214,
+            "longitude": 35.3237879392768
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/031"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Emek I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.011389731601,
+            "longitude": 35.306310200865
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/032"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Emek II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0112864820557,
+            "longitude": 35.3063584806276
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/033"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Erciyes I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9880492926115,
+            "longitude": 35.3242465970166
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/034"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Erciyes II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.992500932657,
+            "longitude": 35.3231763956222
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/035"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Esendam",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9927956873231,
+            "longitude": 35.3152826544922
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/036"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ferah",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9770234101008,
+            "longitude": 35.348665427883
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/037"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Galleria",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0028641349806,
+            "longitude": 35.3343290207054
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/038"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Gar",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0025500571055,
+            "longitude": 35.3231978532931
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/039"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Girne",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9837536167862,
+            "longitude": 35.3177414288205
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/040"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Güleröz ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0074547319489,
+            "longitude": 35.324710619178
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/041"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Güneşli",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9680922022859,
+            "longitude": 35.3420993802139
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/042"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Güney",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9878995967418,
+            "longitude": 35.3181428515813
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/043"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Halk / Özen",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9832896718061,
+            "longitude": 35.3220257279544
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/044"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Irmak",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9915542529027,
+            "longitude": 35.3349003312259
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/045"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Işık I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9917995258809,
+            "longitude": 35.3139066812678
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/046"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Işık II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9927268405013,
+            "longitude": 35.3265398857277
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/047"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "İnci",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9834532246095,
+            "longitude": 35.3381940838889
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/048"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "İpek II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9910787735282,
+            "longitude": 35.3382799145775
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/049"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "İstanbul",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9912831545488,
+            "longitude": 35.3155991551556
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/050"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "İstiklâl",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9913477000855,
+            "longitude": 35.3152933833283
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/051"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Kanal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0090960166335,
+            "longitude": 35.307273578367
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/052"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Kelebek",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9896544134616,
+            "longitude": 35.3082150337338
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/053"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Kent",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9918662273803,
+            "longitude": 35.3213471290741
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/054"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Kervan",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9795930800845,
+            "longitude": 35.3243856501221
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/055"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Kiremithane",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0019412559704,
+            "longitude": 35.3649518010275
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/056"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Konak",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9956018421551,
+            "longitude": 35.2977451165816
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/057"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Köprülü",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0200034017141,
+            "longitude": 35.3386542417335
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/058"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Köse",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9687206495092,
+            "longitude": 35.3418740746566
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/059"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Köşk I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0027780899234,
+            "longitude": 35.3211325523515
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/060"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Köşk II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0042366118342,
+            "longitude": 35.3242975589894
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/061"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lale",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9786322126801,
+            "longitude": 35.3278077592522
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/062"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lâle / Elhamra / Alsaray",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9856523029485,
+            "longitude": 35.3265452501443
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/063"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Levent / Filiz",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0065985991707,
+            "longitude": 35.3095159051036
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/064"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lüks I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9827581800214,
+            "longitude": 35.3241956350468
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/065"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Lüks II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9827732427288,
+            "longitude": 35.3242009994648
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/066"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Marmara ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9832401807166,
+            "longitude": 35.3203734872014
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/067"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mavi Köşk",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0103371647903,
+            "longitude": 35.3197887656308
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/068"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mehtap",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9822826433444,
+            "longitude": 35.3456828114584
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/069"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Melek",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9772041753509,
+            "longitude": 35.34812898608
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/070"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Melek I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9824268164186,
+            "longitude": 35.3248044964854
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/071"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metro",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0010140620747,
+            "longitude": 35.3230744716763
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/072"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Metropol",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0470054419777,
+            "longitude": 35.30345370304
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/073"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Millet Bahçesi",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0035417050761,
+            "longitude": 35.3403022735179
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/074"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mimar Sinan Sineması",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0095214316356,
+            "longitude": 35.3320856447086
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/075"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Mine",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9988326330321,
+            "longitude": 35.3434726712303
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/076"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Narlıca",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9958514147267,
+            "longitude": 35.2990754922511
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/077"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Nergis / Selma / Barboros",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9991155883816,
+            "longitude": 35.3006550978698
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/078"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Nur",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9826663351822,
+            "longitude": 35.3209976305639
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/079"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Nural",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9834818110221,
+            "longitude": 35.3314848048927
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/080"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Olgun",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9894322254688,
+            "longitude": 35.3388834902737
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/081"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Özgür Sinematek",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0476789319148,
+            "longitude": 35.3685179569029
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/082"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Özsaray",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9958443349796,
+            "longitude": 35.3213149425645
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/083"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Park",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9974987708447,
+            "longitude": 35.324817907538
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/084"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Polat ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9774147973055,
+            "longitude": 35.3296838736793
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/085"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Renk",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9957195526898,
+            "longitude": 35.323651146616
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/086"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Rum / Türk Ocağı / Asri",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9901047715897,
+            "longitude": 35.3233930924919
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/087"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Seher",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9801824369182,
+            "longitude": 35.3486117837027
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/088"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sema",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9788953183426,
+            "longitude": 35.3235189070387
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/089"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ses",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9970129523752,
+            "longitude": 35.2888263029012
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/090"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Set",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9902912773522,
+            "longitude": 35.3215187904509
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/091"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Seyhan / İpek I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9869949839851,
+            "longitude": 35.3392079588956
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/092"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Seyhan I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9896264795638,
+            "longitude": 35.3319404920646
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/093"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sinema Evi",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9820093480337,
+            "longitude": 35.3253516671323
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/094"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Site ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0017928165988,
+            "longitude": 35.3181874868528
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/095"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Stüdyo Kompleksi Sineması",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0484185124764,
+            "longitude": 35.3689471103453
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/096"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sular I",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.003664394217,
+            "longitude": 35.3229564544816
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/097"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sular II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0139529531283,
+            "longitude": 35.3261348721549
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/098"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sular III",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9901348948769,
+            "longitude": 35.3237176397823
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/099"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sun",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9943813443062,
+            "longitude": 35.3224307415144
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/100"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Sümer ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0125763448451,
+            "longitude": 35.3145611402604
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/101"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Şafak",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9838642001136,
+            "longitude": 35.3094649431372
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/102"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Şahinler ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9921396682457,
+            "longitude": 35.348745196085
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/103"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Şan ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9857917806789,
+            "longitude": 35.320895706623
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/104"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Şehir ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9852779007287,
+            "longitude": 35.3163877246054
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/105"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Şoray",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9793647181985,
+            "longitude": 35.3448566910817
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/106"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Şölen",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9888319045921,
+            "longitude": 35.3196595251301
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/107"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tahsilli",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0131012464474,
+            "longitude": 35.3424633835749
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/108"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Tan / Ünal",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9864721051575,
+            "longitude": 35.3281089780004
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/109"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Teras",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9917156164209,
+            "longitude": 35.3149956581277
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/110"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Türen",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0103199563363,
+            "longitude": 35.3189063188649
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/111"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Ünal II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9855662327827,
+            "longitude": 35.3247267124327
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/112"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Venüs",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0030319329547,
+            "longitude": 35.3232622263099
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/113"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Yavuzlar ",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0014147993307,
+            "longitude": 35.3426487301633
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/114"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Yeni",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.984659966864,
+            "longitude": 35.3216950049091
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/115"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Yeşilevler",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0075497770555,
+            "longitude": 35.2878338855654
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/116"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Yıldız II",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.9962337439255,
+            "longitude": 35.3211540100232
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/117"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Yılmazlar Aile",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.0086679453354,
+            "longitude": 35.3644114949018
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/118"
+      ]
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Place",
+      "name": "Zafer",
+      "additionalType": [
+        {
+          "@id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+          "name": "Venue"
+        }
+      ],
+      "location": {
+        "@type": "Role",
+        "location": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.992145926904,
+            "longitude": 35.3125628945508
+          }
+        }
+      },
+      "citation": [
+        "Adana Sinema Heritage. https://www.cinemap.org/."
+      ],
+      "sameAs": [
+        "http://www.cinemap.org/archives/119"
+      ]
+    }
+  ]
+}

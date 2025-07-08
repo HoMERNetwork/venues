@@ -116,6 +116,28 @@
 			],
 			"dateModified": "2025-07-01",
 			"isBasedOn": "springfield-venues.tsv"
+		},
+		{
+			"@id": "adana-sinemasi",
+			"@type": "Dataset",
+			"name": "Adana Sineması",
+			"description": "A database of Adana Sineması.",
+			"citation": "Adana Sinema Heritage. https://www.cinemap.org/.",
+			"url": "https://www.cinemap.org/",
+			"distribution": [
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "text/tab-separated-values",
+					"contentUrl": "adana-sinemasi.tsv"
+				},
+				{
+					"@type": "DataDownload",
+					"encodingFormat": "application/ld+json",
+					"contentUrl": "adana-sinemasi.jsonld"
+				}
+			],
+			"dateModified": "2025-07-08",
+			"isBasedOn": "adana-sinemasi.tsv"
 		}
 	]
 }
